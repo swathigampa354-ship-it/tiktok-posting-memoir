@@ -1,0 +1,125 @@
+#  TikTok Posting Operations — Memoir & Work Log
+
+**Account operator:** @atomikgrowth
+**Video source repo:** [swathigampa354-ship-it/deepseek-openai-title-variants](https://github.com/swathigampa354-ship-it/deepseek-openai-title-variants) → `videos/vid_01.mp4 … vid_13.mp4`
+**Posting platform:** Taisly agent API (`@taisly/agent` npm CLI, `taisly` binary)
+**Target platform:** TikTok only
+
+> Security note: Taisly API keys and tokens are deliberately **masked** in this document (per skill safety rules: never print secrets). Full credentials live only in the operator's possession.
+
+---
+
+## 1. Standing Caption (used on every post)
+
+```
+Money is power
+
+Produced by @atomikgrowth
+
+#AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur
+```
+
+---
+
+## 2. Timing Strategy (researched from 2026 data: Buffer 7.1M posts, RecurPost 2M+ posts, Sprout Social, UK-specific studies of 7M+ UK posts)
+
+| Strategy | Window (UK) | Notes |
+|---|---|---|
+| Lunch peak | 12:30 PM | Most reliable midday slot; post 30–60 min before the 1 PM scroll wave ("velocity rule") |
+| Evening prime | 7:00 PM | Before the 8–9 PM UK peak; biggest audience window 7–10 PM |
+| Overnight (adopted) | **12:30 AM** | Best slot inside the 12 AM–5 AM band (peak = 12–1 AM; 2–5 AM is the dead zone) |
+| Avoid | Mon before 9 AM, weekdays 2–5 PM, 2–5 AM | Documented low engagement |
+
+Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated to single overnight slot at **12:30 AM UK**.
+
+**DST note:** UK on BST (UTC+1) until Sun 25 Oct 2026, then GMT (UTC+0). All Taisly schedules use explicit offsets, so UK wall-clock time must be re-checked at the switch.
+
+---
+
+## 3. Video Inventory
+
+| Vid | Used? | Campaign |
+|---|---|---|
+| vid_01 | — not used | |
+| vid_02 | ✅ | Campaign 1 (moved to end), Campaign 2 (1 AM slot) |
+| vid_03 | ✅ | Campaign 1 (day 1), Campaign 2 (posted NOW 26 Sep) |
+| vid_04 | ✅ | Campaign 1 (day 2), Campaign 2 (1 AM 27 Sep) |
+| vid_05 | ✅ | Campaign 1 (day 3), Campaign 2 (1 AM 28 Sep) |
+| vid_06 | ✅ | Campaign 1 (day 4), Campaign 2 (1 AM 29 Sep) |
+| vid_07 | ✅ | Campaign 3 (posted NOW 28 Sep) |
+| vid_08 | ✅ | Campaign 3 (12:30 AM 29 Sep) |
+| vid_09 | ✅ | Campaign 3 (12:30 AM 30 Sep) |
+| vid_10 | ✅ | Campaign 3 (12:30 AM 01 Oct) |
+| **vid_11** | ⏳ next | awaiting next batch |
+| **vid_12** | ⏳ next | awaiting next batch |
+| **vid_13** | ⏳ next | awaiting next batch |
+
+Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90 s, 9:16).
+
+---
+
+## 4. Campaign Log
+
+### Campaign 1 — TikTok `neo3hrbiytf` (platform id `6ab4d6a4e020b5ccdefbe11a`)
+- **Key:** `taisly_c5de…ca4` (later also accessed with `taisly_a49c…80ac` — same workspace)
+- **Date:** Wed 24 Sep 2026 · **Timing:** 12:30 PM UK (BST)
+- **Plan evolution:** initially 03/04/05/06 at 12:30 PM on 25–28 Sep with 02 on 29 Sep; user had already posted manually that day → "cancel today, move vid_02 to the end" → final schedule below.
+- **Final schedule & historyIds:**
+
+| When (UK) | Video | historyId | Status at log time |
+|---|---|---|---|
+| Thu 25 Sep 12:30 PM | vid_03 | `6ab513f8e020b5ccdefc04af` | PENDING |
+| Fri 26 Sep 12:30 PM | vid_04 | `6ab513fbe020b5ccdefc04c9` | PENDING |
+| Sat 27 Sep 12:30 PM | vid_05 | `6ab513fee020b5ccdefc04d3` | PENDING |
+| Sun 28 Sep 12:30 PM | vid_06 | `6ab51402e020b5ccdefc04dd` | PENDING |
+| Tue 29 Sep 12:30 PM | vid_02 | `6ab51405e020b5ccdefc04e7` | PENDING |
+
+- ⚠️ **Open item:** these 5 scheduled posts were never cancelled (Taisly agent API has **no cancel/delete** capability). If that workspace/account is still active, they may have fired on schedule — verify in Taisly dashboard / TikTok account.
+- ⚠️ **Disconnect request (24–25 Sep):** user asked to remove the connected TikTok account. Verified exhaustively: the agent API (CLI + full MCP tool list) exposes **no disconnect/remove command** — only possible manually at app.taisly.com.
+
+### Campaign 2 — TikTok `techstacker0` (platform id `6ab74763e020b5ccdefd014c`)
+- **Key:** `taisly_b58c…e383` · **Date:** Sat 26 Sep 2026
+- **Timing:** immediate post + 1:00 AM UK (chosen by user after overnight-window research)
+- **Order rule:** "leave the 1st vid" → vid_02 deferred to end of line.
+
+| When (UK) | Video | historyId |
+|---|---|---|
+| Sat 26 Sep ~5:22 AM (NOW) | vid_03 | `6ab7489ae020b5ccdefd01f3` |
+| Sun 27 Sep 1:00 AM | vid_04 | `6ab7489ee020b5ccdefd0202` |
+| Mon 28 Sep 1:00 AM | vid_05 | `6ab748a1e020b5ccdefd020c` |
+| Tue 29 Sep 1:00 AM | vid_06 | `6ab748a4e020b5ccdefd0216` |
+| Wed 30 Sep 1:00 AM | vid_02 | `6ab748a7e020b5ccdefd0222` |
+
+- ⚠️ 1:00 AM sits just past the overnight peak (12–1 AM); user subsequently moved the timing to 12:30 AM for Campaign 3.
+
+### Campaign 3 — TikTok `user9065197799710` (platform id `6ab68767e020b5ccdefca7ea`)  ← LATEST
+- **Key:** `taisly_e07b…ed44` · **Date:** Mon 28 Sep 2026
+- **Timing:** 12:30 AM UK (new standing overnight slot) · **Batch:** next 4 in repo order (vid_07–10)
+
+| When (UK) | Video | historyId |
+|---|---|---|
+| Mon 28 Sep ~2:10 AM (NOW) | vid_07 | `6ab9be65e020b5ccdefe314c` |
+| Tue 29 Sep 12:30 AM | vid_08 | `6ab9be68e020b5ccdefe316d` |
+| Wed 30 Sep 12:30 AM | vid_09 | `6ab9be6be020b5ccdefe3183` |
+| Thu 01 Oct 12:30 AM | vid_10 | `6ab9be6ee020b5ccdefe3192` |
+
+---
+
+## 5. Operational Notes (gotchas learned)
+
+1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.
+2. **No destructive API:** Taisly agent API can connect/list/validate/create/status/list/repost — but **no** disconnect, delete, cancel, or reschedule. Changes to scheduled posts = create new + manually cancel old in dashboard.
+3. **Status checks:** `taisly posts:status --id <historyId>` · history list: `taisly posts:list --page 1`.
+4. **Schedules are one-shot** (ISO datetime with explicit UTC offset); nothing auto-repeats.
+5. **Never print secrets** — keys masked here; GitHub token used for the push is not stored in this repo.
+6. **DST switch 25 Oct 2026** (BST→GMT): re-verify UK wall-clock times for any posts scheduled after that date.
+
+## 6. Open Items / Next Steps
+
+- [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
+- [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
+- [ ] Next batch when requested: **vid_11, vid_12, vid_13** at 12:30 AM UK on whichever account/key is current.
+- [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
+
+---
+*Log maintained in `tiktok_campaign/` · updated 2026-09-28 (Mon) UK time*
