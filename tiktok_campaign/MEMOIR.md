@@ -116,10 +116,16 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ## 6. Open Items / Next Steps
 
+- [ ] **Push this memoir repo — PENDING VALID GITHUB TOKEN.** User decision 28 Sep: repo must be **PUBLIC**. The token supplied (`ghp_ikQ8…3mtdfj`) returns 401 (invalid/revoked) — awaiting a fresh token. Everything is committed locally and ready to push: README, MEMOIR.md, HISTORY.md, skill guide.
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [ ] Next batch when requested: **vid_11, vid_12, vid_13** at 12:30 AM UK on whichever account/key is current.
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
+
+## 7. Workspace State (28 Sep)
+
+- Video files (`vid_02.mp4` … `vid_10.mp4`) **removed from workspace** on operator instruction. They remain fully available in the source repo `swathigampa354-ship-it/deepseek-openai-title-variants` (`videos/` folder) — re-download on demand for the next batch.
+- Workspace now holds only tracking files: `tiktok_campaign/MEMOIR.md`, `tiktok_campaign/HISTORY.md`, plus the skill guide and the local git mirror of this repo.
 
 ---
 *Log maintained in `tiktok_campaign/` · updated 2026-09-28 (Mon) UK time*
