@@ -50,9 +50,9 @@ Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated 
 | vid_08 | ✅ | Campaign 3 (12:30 AM 29 Sep) |
 | vid_09 | ✅ | Campaign 3 (12:30 AM 30 Sep) |
 | vid_10 | ✅ | Campaign 3 (12:30 AM 01 Oct) |
-| **vid_11** | ⏳ next | awaiting next batch |
-| **vid_12** | ⏳ next | awaiting next batch |
-| **vid_13** | ⏳ next | awaiting next batch |
+| vid_11 | ✅ | Campaign 4 (posted NOW 01 Oct) |
+| vid_12 | ✅ | Campaign 4 (12:30 AM 02 Oct) |
+| vid_13 | ✅ | Campaign 4 (12:30 AM 03 Oct) |
 
 Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90 s, 9:16).
 
@@ -119,7 +119,17 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] **Push this memoir repo — PENDING VALID GITHUB TOKEN.** User decision 28 Sep: repo must be **PUBLIC**. The token supplied (`ghp_ikQ8…3mtdfj`) returns 401 (invalid/revoked) — awaiting a fresh token. Everything is committed locally and ready to push: README, MEMOIR.md, HISTORY.md, skill guide.
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
-- [ ] Next batch when requested: **vid_11, vid_12, vid_13** at 12:30 AM UK on whichever account/key is current.
+### Campaign 4 — TikTok `businesssignals_20` (platform id `6abe388d3716f32795361307`)  ← LATEST
+- **Key:** `taisly_4ad2…943a` · **Date:** Thu 01 Oct 2026
+- **Timing:** 12:30 AM UK (standing overnight slot) · **Batch:** final 3 of repo inventory (vid_11–13)
+
+| When (UK) | Video | historyId |
+|---|---|---|
+| Thu 01 Oct ~11:42 AM (NOW) | vid_11 | `6abe39093716f32795361360` |
+| Fri 02 Oct 12:30 AM | vid_12 | `6abe390c3716f3279536136f` |
+| Sat 03 Oct 12:30 AM | vid_13 | `6abe390f3716f32795361379` |
+
+- ✅ **Repo video inventory complete:** vid_02–vid_13 all deployed across Campaigns 1–4. No further videos in the planned range — future batches need new source videos.
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State (28 Sep)
