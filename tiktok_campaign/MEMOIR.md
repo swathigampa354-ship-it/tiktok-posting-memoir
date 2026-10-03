@@ -1,7 +1,7 @@
 #  TikTok Posting Operations — Memoir & Work Log
 
 **Account operator:** @atomikgrowth
-**Video source repo:** [swathigampa354-ship-it/deepseek-openai-title-variants](https://github.com/swathigampa354-ship-it/deepseek-openai-title-variants) → `videos/vid_01.mp4 … vid_13.mp4`
+**Video source repo:** [swathigampa354-ship-it/deepseek-openai-title-variants](https://github.com/swathigampa354-ship-it/deepseek-openai-title-variants) → `videos/vid_01.mp4 … vid_50.mp4` (50 videos total)
 **Posting platform:** Taisly agent API (`@taisly/agent` npm CLI, `taisly` binary)
 **Target platform:** TikTok only
 
@@ -53,6 +53,11 @@ Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated 
 | vid_11 | ✅ | Campaign 4 (posted NOW 01 Oct) |
 | vid_12 | ✅ | Campaign 4 (12:30 AM 02 Oct) |
 | vid_13 | ✅ | Campaign 4 (12:30 AM 03 Oct) |
+| vid_14 | ✅ | Campaign 5 (posted NOW 03 Oct) |
+| vid_15 | ✅ | Campaign 5 (12:30 AM 04 Oct) |
+| vid_16 | ✅ | Campaign 5 (12:30 AM 05 Oct) |
+| vid_17 | ✅ | Campaign 5 (12:30 AM 06 Oct) |
+| vid_18–vid_50 | ⏳ | 33 videos remaining in source repo |
 
 Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90 s, 9:16).
 
@@ -119,7 +124,20 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] **Push this memoir repo — PENDING VALID GITHUB TOKEN.** User decision 28 Sep: repo must be **PUBLIC**. The token supplied (`ghp_ikQ8…3mtdfj`) returns 401 (invalid/revoked) — awaiting a fresh token. Everything is committed locally and ready to push: README, MEMOIR.md, HISTORY.md, skill guide.
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
-### Campaign 4 — TikTok `businesssignals_20` (platform id `6abe388d3716f32795361307`)  ← LATEST
+### Campaign 5 — TikTok `nextgencapital_292` (platform id `6ac0c82b502f9f77444eec34`)  ← LATEST
+- **Key:** `taisly_0f98…56547` · **Date:** Sat 03 Oct 2026
+- **Timing:** 12:30 AM UK (standing overnight slot) · **Batch:** vid_14–17
+
+| When (UK) | Video | historyId |
+|---|---|---|
+| Sat 03 Oct ~10:20 AM (NOW) | vid_14 | `6ac0c8ce502f9f77444eec87` |
+| Sun 04 Oct 12:30 AM | vid_15 | `6ac0c8d1502f9f77444eec96` |
+| Mon 05 Oct 12:30 AM | vid_16 | `6ac0c8d4502f9f77444eeca0` |
+| Tue 06 Oct 12:30 AM | vid_17 | `6ac0c8d7502f9f77444eecba` |
+
+- ℹ️ **Correction (03 Oct):** source repo actually contains **vid_01–vid_50 (50 videos)** — earlier listing was truncated and I wrongly reported the inventory as exhausted. Used so far: vid_02–vid_17; next up: vid_18.
+
+### Campaign 4 — TikTok `businesssignals_20` (platform id `6abe388d3716f32795361307`)
 - **Key:** `taisly_4ad2…943a` · **Date:** Thu 01 Oct 2026
 - **Timing:** 12:30 AM UK (standing overnight slot) · **Batch:** final 3 of repo inventory (vid_11–13)
 
@@ -129,7 +147,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | Fri 02 Oct 12:30 AM | vid_12 | `6abe390c3716f3279536136f` |
 | Sat 03 Oct 12:30 AM | vid_13 | `6abe390f3716f32795361379` |
 
-- ✅ **Repo video inventory complete:** vid_02–vid_13 all deployed across Campaigns 1–4. No further videos in the planned range — future batches need new source videos.
+- (Superseded note: repo inventory is **not** exhausted — see Campaign 5 correction: 50 videos total.)
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State (28 Sep)

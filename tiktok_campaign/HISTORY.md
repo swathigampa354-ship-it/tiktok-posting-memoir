@@ -1,4 +1,21 @@
-# Taisly Campaign — businesssignals_20 (6abe388d3716f32795361307) [LATEST]
+# Taisly Campaign — nextgencapital_292 (6ac0c82b502f9f77444eec34) [LATEST]
+
+Key: taisly_0f98…56547 | Timing: 12:30 AM UK | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK, BST) | Video | historyId | Status |
+|---|---|---|---|
+| Sat 2026-10-03 ~10:20 AM (NOW) | vid_14.mp4 | 6ac0c8ce502f9f77444eec87 | publishing |
+| Sun 2026-10-04 12:30 AM | vid_15.mp4 | 6ac0c8d1502f9f77444eec96 | PENDING |
+| Mon 2026-10-05 12:30 AM | vid_16.mp4 | 6ac0c8d4502f9f77444eeca0 | PENDING |
+| Tue 2026-10-06 12:30 AM | vid_17.mp4 | 6ac0c8d7502f9f77444eecba | PENDING |
+
+Created 2026-10-03 09:20 UTC.
+NOTE: source repo contains vid_01–vid_50 (50 total). Used so far: vid_02–vid_17. Next up: vid_18.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businesssignals_20 (6abe388d3716f32795361307)
 
 Key: taisly_4ad2…943a | Timing: 12:30 AM UK | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
@@ -9,8 +26,6 @@ Key: taisly_4ad2…943a | Timing: 12:30 AM UK | Caption: "Money is power / Produ
 | Sat 2026-10-03 12:30 AM | vid_13.mp4 | 6abe390f3716f32795361379 | PENDING |
 
 Created 2026-10-01 10:42 UTC.
-Check: taisly posts:status --id <historyId>
-NOTE: this completes the repo video inventory (vid_02–vid_13 all used). No more vids in source repo's planned range.
 
 ---
 
