@@ -5,6 +5,7 @@ Key: taisly_0f98…56547 | Timing: 12:30 AM UK | Caption: "Money is power / Prod
 | When (UK, BST) | Video | historyId | Status |
 |---|---|---|---|
 | Sat 2026-10-03 ~10:20 AM (NOW) | vid_14.mp4 | 6ac0c8ce502f9f77444eec87 | publishing |
+| **Sat 2026-10-03 12:30 PM** (new 2-slot system) | vid_18.mp4 | 6ac0cff6502f9f77444ef233 | PENDING |
 | Sun 2026-10-04 12:30 AM | vid_15.mp4 | 6ac0c8d1502f9f77444eec96 | PENDING |
 | Mon 2026-10-05 12:30 AM | vid_16.mp4 | 6ac0c8d4502f9f77444eeca0 | PENDING |
 | Tue 2026-10-06 12:30 AM | vid_17.mp4 | 6ac0c8d7502f9f77444eecba | PENDING |

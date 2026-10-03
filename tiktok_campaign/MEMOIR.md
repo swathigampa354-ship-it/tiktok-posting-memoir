@@ -127,6 +127,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | When (UK) | Video | historyId |
 |---|---|---|
 | Sat 03 Oct ~10:20 AM (NOW) | vid_14 | `6ac0c8ce502f9f77444eec87` |
+| **Sat 03 Oct 12:30 PM** (new 2-slot system: 12:30 PM + 8:30 PM, 8h gap) | vid_18 | `6ac0cff6502f9f77444ef233` |
 | Sun 04 Oct 12:30 AM | vid_15 | `6ac0c8d1502f9f77444eec96` |
 | Mon 05 Oct 12:30 AM | vid_16 | `6ac0c8d4502f9f77444eeca0` |
 | Tue 06 Oct 12:30 AM | vid_17 | `6ac0c8d7502f9f77444eecba` |
@@ -151,7 +152,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_18 (repo holds vid_01–vid_50)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_19 (repo holds vid_01–vid_50)
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State
