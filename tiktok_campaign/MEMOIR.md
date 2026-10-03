@@ -158,6 +158,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 ## 7. Workspace State
 
 - `tiktok_campaign/MEMOIR.md` — this file
+- `tiktok_campaign/TRACKING.md` — **MASTER LEDGER**: every key → TikTok account (ID + username) → all posts
 - `tiktok_campaign/HISTORY.md` — machine-usable post history (all historyIds per account)
 - `tiktok-memoir-repo/` — local git mirror of the memoir repo (pending push)
 - `uploads/` — original TikTok Account Posting Skill
