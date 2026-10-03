@@ -34,9 +34,11 @@ Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated 
 
 **DST note:** UK on BST (UTC+1) until Sun 25 Oct 2026, then GMT (UTC+0). All Taisly schedules use explicit offsets, so UK wall-clock time must be re-checked at the switch.
 
+**Batch pattern:** each new Taisly key arrives with a freshly connected TikTok account → take the next 3–4 unused videos in order → post the 1st immediately, schedule the rest at 12:30 AM UK on consecutive days.
+
 ---
 
-## 3. Video Inventory
+## 3. Video Inventory (repo: vid_01–vid_50)
 
 | Vid | Used? | Campaign |
 |---|---|---|
@@ -57,7 +59,7 @@ Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated 
 | vid_15 | ✅ | Campaign 5 (12:30 AM 04 Oct) |
 | vid_16 | ✅ | Campaign 5 (12:30 AM 05 Oct) |
 | vid_17 | ✅ | Campaign 5 (12:30 AM 06 Oct) |
-| vid_18–vid_50 | ⏳ | 33 videos remaining in source repo |
+| vid_18–vid_50 | ⏳ | 33 videos remaining — next batch starts at vid_18 |
 
 Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90 s, 9:16).
 
@@ -95,11 +97,11 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | Tue 29 Sep 1:00 AM | vid_06 | `6ab748a4e020b5ccdefd0216` |
 | Wed 30 Sep 1:00 AM | vid_02 | `6ab748a7e020b5ccdefd0222` |
 
-- ⚠️ 1:00 AM sits just past the overnight peak (12–1 AM); user subsequently moved the timing to 12:30 AM for Campaign 3.
+- ⚠️ 1:00 AM sits just past the overnight peak (12–1 AM); user subsequently moved the timing to 12:30 AM for Campaign 3+.
 
-### Campaign 3 — TikTok `user9065197799710` (platform id `6ab68767e020b5ccdefca7ea`)  ← LATEST
+### Campaign 3 — TikTok `user9065197799710` (platform id `6ab68767e020b5ccdefca7ea`)
 - **Key:** `taisly_e07b…ed44` · **Date:** Mon 28 Sep 2026
-- **Timing:** 12:30 AM UK (new standing overnight slot) · **Batch:** next 4 in repo order (vid_07–10)
+- **Timing:** 12:30 AM UK (new standing overnight slot) · **Batch:** vid_07–10
 
 | When (UK) | Video | historyId |
 |---|---|---|
@@ -108,22 +110,16 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | Wed 30 Sep 12:30 AM | vid_09 | `6ab9be6be020b5ccdefe3183` |
 | Thu 01 Oct 12:30 AM | vid_10 | `6ab9be6ee020b5ccdefe3192` |
 
----
+### Campaign 4 — TikTok `businesssignals_20` (platform id `6abe388d3716f32795361307`)
+- **Key:** `taisly_4ad2…943a` · **Date:** Thu 01 Oct 2026
+- **Timing:** 12:30 AM UK (standing overnight slot) · **Batch:** vid_11–13
 
-## 5. Operational Notes (gotchas learned)
+| When (UK) | Video | historyId |
+|---|---|---|
+| Thu 01 Oct ~11:42 AM (NOW) | vid_11 | `6abe39093716f32795361360` |
+| Fri 02 Oct 12:30 AM | vid_12 | `6abe390c3716f3279536136f` |
+| Sat 03 Oct 12:30 AM | vid_13 | `6abe390f3716f32795361379` |
 
-1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.
-2. **No destructive API:** Taisly agent API can connect/list/validate/create/status/list/repost — but **no** disconnect, delete, cancel, or reschedule. Changes to scheduled posts = create new + manually cancel old in dashboard.
-3. **Status checks:** `taisly posts:status --id <historyId>` · history list: `taisly posts:list --page 1`.
-4. **Schedules are one-shot** (ISO datetime with explicit UTC offset); nothing auto-repeats.
-5. **Never print secrets** — keys masked here; GitHub token used for the push is not stored in this repo.
-6. **DST switch 25 Oct 2026** (BST→GMT): re-verify UK wall-clock times for any posts scheduled after that date.
-
-## 6. Open Items / Next Steps
-
-- [ ] **Push this memoir repo — PENDING VALID GITHUB TOKEN.** User decision 28 Sep: repo must be **PUBLIC**. The token supplied (`ghp_ikQ8…3mtdfj`) returns 401 (invalid/revoked) — awaiting a fresh token. Everything is committed locally and ready to push: README, MEMOIR.md, HISTORY.md, skill guide.
-- [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
-- [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 ### Campaign 5 — TikTok `nextgencapital_292` (platform id `6ac0c82b502f9f77444eec34`)  ← LATEST
 - **Key:** `taisly_0f98…56547` · **Date:** Sat 03 Oct 2026
 - **Timing:** 12:30 AM UK (standing overnight slot) · **Batch:** vid_14–17
@@ -135,25 +131,36 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | Mon 05 Oct 12:30 AM | vid_16 | `6ac0c8d4502f9f77444eeca0` |
 | Tue 06 Oct 12:30 AM | vid_17 | `6ac0c8d7502f9f77444eecba` |
 
-- ℹ️ **Correction (03 Oct):** source repo actually contains **vid_01–vid_50 (50 videos)** — earlier listing was truncated and I wrongly reported the inventory as exhausted. Used so far: vid_02–vid_17; next up: vid_18.
-
-### Campaign 4 — TikTok `businesssignals_20` (platform id `6abe388d3716f32795361307`)
-- **Key:** `taisly_4ad2…943a` · **Date:** Thu 01 Oct 2026
-- **Timing:** 12:30 AM UK (standing overnight slot) · **Batch:** final 3 of repo inventory (vid_11–13)
-
-| When (UK) | Video | historyId |
-|---|---|---|
-| Thu 01 Oct ~11:42 AM (NOW) | vid_11 | `6abe39093716f32795361360` |
-| Fri 02 Oct 12:30 AM | vid_12 | `6abe390c3716f3279536136f` |
-| Sat 03 Oct 12:30 AM | vid_13 | `6abe390f3716f32795361379` |
-
-- (Superseded note: repo inventory is **not** exhausted — see Campaign 5 correction: 50 videos total.)
-- [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
-
-## 7. Workspace State (28 Sep)
-
-- Video files (`vid_02.mp4` … `vid_10.mp4`) **removed from workspace** on operator instruction. They remain fully available in the source repo `swathigampa354-ship-it/deepseek-openai-title-variants` (`videos/` folder) — re-download on demand for the next batch.
-- Workspace now holds only tracking files: `tiktok_campaign/MEMOIR.md`, `tiktok_campaign/HISTORY.md`, plus the skill guide and the local git mirror of this repo.
+- ℹ️ **Correction (03 Oct):** source repo actually contains **vid_01–vid_50 (50 videos)** — an earlier truncated listing made me wrongly report the inventory as exhausted. Used so far: vid_02–vid_17; next up: vid_18.
 
 ---
-*Log maintained in `tiktok_campaign/` · updated 2026-09-28 (Mon) UK time*
+
+## 5. Operational Notes (gotchas learned)
+
+1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.
+2. **No destructive API:** Taisly agent API can connect/list/validate/create/status/list/repost — but **no** disconnect, delete, cancel, or reschedule. Changes to scheduled posts = create new + manually cancel old in dashboard.
+3. **Status checks:** `taisly posts:status --id <historyId>` · history list: `taisly posts:list --page 1`.
+4. **Schedules are one-shot** (ISO datetime with explicit UTC offset); nothing auto-repeats.
+5. **Never print secrets** — keys masked here; GitHub token used for the push is not stored in this repo.
+6. **DST switch 25 Oct 2026** (BST→GMT): re-verify UK wall-clock times for any posts scheduled after that date.
+7. **Videos are pulled on demand** from the source repo and removed from the workspace after each campaign (operator rule: no video files kept in workspace).
+
+## 6. Open Items / Next Steps
+
+- [ ] **Push this memoir repo — PENDING VALID GITHUB TOKEN.** User decision 28 Sep: repo must be **PUBLIC**. The token supplied (`ghp_ikQ8…3mtdfj`) returns 401 (invalid/revoked) — awaiting a fresh token. Everything is committed locally and ready to push: README, MEMOIR.md, HISTORY.md, skill guide.
+- [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
+- [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
+- [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_18 (repo holds vid_01–vid_50)
+- [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
+
+## 7. Workspace State
+
+- `tiktok_campaign/MEMOIR.md` — this file
+- `tiktok_campaign/HISTORY.md` — machine-usable post history (all historyIds per account)
+- `tiktok-memoir-repo/` — local git mirror of the memoir repo (pending push)
+- `uploads/` — original TikTok Account Posting Skill
+- **No video files** — removed after each campaign per operator rule
+
+---
+*Log maintained in `tiktok_campaign/` · last updated 2026-10-03 (Sat) UK time*
