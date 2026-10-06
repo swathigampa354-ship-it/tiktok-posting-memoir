@@ -152,7 +152,7 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 
 ---
 
-## Account 10 — `slashybks18` (reconnected)  ← ACTIVE
+## Account 10 — `slashybks18` (reconnected)
 - **Platform ID:** `6ac4d30e9117edafc77571b5` (same account as Accounts 8 & 9, reconnected)
 - **Key used:** `taisly_f696…8d1`
 - **Created:** Tue 06 Oct 2026 · **Day batch** (5 × 12:30 PM, Mon 12 → Fri 16 Oct) — slot auto-chosen per standing alternation (prev was night)
@@ -166,6 +166,23 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `6ac4d39d9117edafc7757236` | vid_43 | Fri 16 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
 
 ⏳ **Night batch pending:** next key = 5 × 8:30 PM on these same 5 days (12–16 Oct).
+
+---
+
+## Account 11 — `startupdecoded`  ← ACTIVE
+- **Platform ID:** `6ac4e3e89117edafc7757e24` (brand new account)
+- **Key used:** `taisly_d5f5…53f2`
+- **Created:** Tue 06 Oct 2026 · **Day batch** (new account = day first) · 5 × 12:30 PM, Wed 07 → Sun 11 Oct
+
+| historyId | Vid | When (UK) | Slot | Status |
+|---|---|---|---|---|
+| `6ac4e5129117edafc7757efb` | batch1/vid_44 | Wed 07 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4e5159117edafc7757f05` | batch1/vid_45 | Thu 08 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4e5189117edafc7757f15` | batch1/vid_46 | Fri 09 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4e51c9117edafc7757f2e` | batch1/vid_47 | Sat 10 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4e51f9117edafc7757f45` | batch1/vid_48 | Sun 11 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+
+⏳ **Night batch pending:** next key for this account = 5 × 8:30 PM, same 5 days (07–11 Oct).
 
 ---
 
@@ -184,15 +201,16 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `taisly_f436…f364` | slashybks18 (founderintel) | `6ac4ce719117edafc7756bcd` |
 | `taisly_515e…c98` | slashybks18 (reconnected) | `6ac4cf699117edafc7756cc0` |
 | `taisly_f696…8d1` | slashybks18 (reconnected) | `6ac4d30e9117edafc77571b5` |
+| `taisly_d5f5…53f2` | startupdecoded | `6ac4e3e89117edafc7757e24` |
 
 ---
 
 ## Totals (as of Tue 06 Oct 2026, UK)
 
-- **Accounts tracked:** 10
-- **Keys logged:** 11
-- **Posts created:** 48 (23 fired/unverified · 25 upcoming)
-- **Videos used:** batch1 vid_02 – vid_43 (42 of 50) · **next up: batch1/vid_44**, then batch2/vid_01+ (50 fresh added to `batch2/` on 06 Oct)
+- **Accounts tracked:** 11
+- **Keys logged:** 12
+- **Posts created:** 53 (23 fired/unverified · 30 upcoming)
+- **Videos used:** batch1 vid_02 – vid_48 (47 of 50) · **next up: batch1/vid_49**, then batch2/vid_01+
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*
