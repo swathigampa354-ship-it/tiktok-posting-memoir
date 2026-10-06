@@ -7,6 +7,7 @@
 2. Platform ID **already in ledger** → append new posts under that existing account entry
 3. Platform ID **new** → create a new account entry
 4. Every `posts:create` result (historyId, video, scheduled time, status) is logged immediately below
+5. **Standing rule (06 Oct):** keys alternate **day batch → night batch on the same 5 days**. Key N (odd) = 5 × day (12:30 PM) on 5 consecutive days from the next available day; Key N+1 (even) = 5 × night (8:30 PM) on those same 5 days. Each day therefore ends with exactly 2 posts.
 
 **Statuses:** 📤 published now · 🕐 upcoming (date still ahead) · ✅ fired (scheduled date has passed — confirm on TikTok) · ⚠️ unverified
 

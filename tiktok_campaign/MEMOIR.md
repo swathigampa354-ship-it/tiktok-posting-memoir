@@ -34,7 +34,11 @@ Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated 
 
 **DST note:** UK on BST (UTC+1) until Sun 25 Oct 2026, then GMT (UTC+0). All Taisly schedules use explicit offsets, so UK wall-clock time must be re-checked at the switch.
 
-**Batch pattern:** each new Taisly key arrives with a connected TikTok account (verify username + platform ID via `platforms:list`; same ID = append, new ID = new ledger entry) → take the next unused videos in order → post per the operator's slot instruction. Slots: **day = 12:30 PM UK, night = 8:30 PM UK** (8h gap; ~5 posts per key).
+**Batch pattern (STANDING RULE since 06 Oct):** each new Taisly key = **5 posts**. Batches **alternate day → night on the SAME 5 days**:
+- Odd key → **day batch**: 5 posts at 12:30 PM UK on 5 consecutive days (starting the next available day)
+- Even key → **night batch**: 5 posts at 8:30 PM UK on **those same 5 days**
+- Result: every day = exactly 2 posts (day + night, 8h gap). 2 keys = 10 days = 20 posts.
+- Always: verify username + platform ID via `platforms:list` (same ID = append, new ID = new ledger entry) and take the next unused videos in order.
 
 ---
 
