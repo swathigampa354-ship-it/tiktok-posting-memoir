@@ -1,4 +1,21 @@
-# Taisly Campaign — moneymindset996 / MoneyMindset (6ac4ed559117edafc77583b6) [LATEST]
+# Taisly Campaign — moneymindset996 / MoneyMindset RECONNECTED (6ac4f3229117edafc77587ce) [LATEST]
+
+Key: taisly_de96…741 | Night batch: 5 × 8:30 PM, same 5 anchor days (Wed 07 → Sun 11 Oct) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK, BST) | Video | Slot | historyId | Status |
+|---|---|---|---|---|
+| Wed 2026-10-07 8:30 PM | batch2/vid_04.mp4 | 🌙 night | 6ac4f35b9117edafc7758821 | PENDING |
+| Thu 2026-10-08 8:30 PM | batch2/vid_05.mp4 | 🌙 night | 6ac4f35e9117edafc775882b | PENDING |
+| Fri 2026-10-09 8:30 PM | batch2/vid_06.mp4 | 🌙 night | 6ac4f3619117edafc7758835 | PENDING |
+| Sat 2026-10-10 8:30 PM | batch2/vid_07.mp4 | 🌙 night | 6ac4f3649117edafc775883f | PENDING |
+| Sun 2026-10-11 8:30 PM | batch2/vid_08.mp4 | 🌙 night | 6ac4f3679117edafc775884c | PENDING |
+
+Created 2026-10-06 13:10 UTC.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — moneymindset996 / MoneyMindset (6ac4ed559117edafc77583b6)
 
 Key: taisly_fc1d…d68c | New cycle, day batch first: 5 × 12:30 PM, Wed 07 → Sun 11 Oct | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
