@@ -1,7 +1,9 @@
 #  TikTok Posting Operations — Memoir & Work Log
 
 **Account operator:** @atomikgrowth
-**Video source repo:** [swathigampa354-ship-it/deepseek-openai-title-variants](https://github.com/swathigampa354-ship-it/deepseek-openai-title-variants) → `videos/vid_01.mp4 … vid_50.mp4` (50 videos total)
+**Video source repo:** [swathigampa354-ship-it/deepseek-openai-title-variants](https://github.com/swathigampa354-ship-it/deepseek-openai-title-variants)
+- `videos/` — **Batch 1**: vid_01–vid_50 (50)
+- `batch2/` — **Batch 2**: vid_01–vid_50 (50, added 06 Oct) — same video/style, different headlines. Numbering restarts, so always reference as `batch1/vid_XX` vs `batch2/vid_XX`.
 **Posting platform:** Taisly agent API (`@taisly/agent` npm CLI, `taisly` binary)
 **Target platform:** TikTok only
 
@@ -229,7 +231,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_44 (repo holds vid_01–vid_50)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: batch1/vid_44 (then batch2/vid_01+)
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State

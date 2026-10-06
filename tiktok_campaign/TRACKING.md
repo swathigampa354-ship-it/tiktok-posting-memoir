@@ -192,7 +192,7 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 - **Accounts tracked:** 10
 - **Keys logged:** 11
 - **Posts created:** 48 (23 fired/unverified · 25 upcoming)
-- **Videos used:** vid_02 – vid_43 (42 of 50) · **next up: vid_44**
+- **Videos used:** batch1 vid_02 – vid_43 (42 of 50) · **next up: batch1/vid_44**, then batch2/vid_01+ (50 fresh added to `batch2/` on 06 Oct)
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*
