@@ -228,9 +228,13 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 
 | historyId | Vid | When (UK) | Slot | Status |
 |---|---|---|---|---|
-| `6ac5816845ccb79f0ef25bae` | batch2/vid_09 | Wed 07 Oct ~12:16 AM (NOW) | — now | 📤 publishing |
+| `6ac5816845ccb79f0ef25bae` | batch2/vid_09 | Wed 07 Oct ~12:16 AM (NOW) | 🌙 night (counts as today's post) | 📤 publishing |
+| `6ac583a345ccb79f0ef25c9d` | batch2/vid_10 | Thu 08 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac583a645ccb79f0ef25cab` | batch2/vid_11 | Thu 08 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
+| `6ac583ae45ccb79f0ef25cb5` | batch2/vid_12 | Fri 09 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac583b445ccb79f0ef25cd1` | batch2/vid_13 | Fri 09 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
 
-⏳ **Cycle pending:** next key for this account → day batch (5 × 12:30 PM), then night batch, per standing rules.
+Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night; the other 4 = proper day/night pairs from Thu 08.
 
 ---
 
@@ -260,8 +264,8 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 
 - **Accounts tracked:** 14
 - **Keys logged:** 15
-- **Posts created:** 64 (24 fired/unverified · 40 upcoming)
-- **Videos used:** batch1 **COMPLETE** (vid_02–50) · batch2 vid_01–09 · **next up: batch2/vid_10**
+- **Posts created:** 68 (24 fired/unverified · 44 upcoming)
+- **Videos used:** batch1 **COMPLETE** (vid_02–50) · batch2 vid_01–13 · **next up: batch2/vid_14**
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*

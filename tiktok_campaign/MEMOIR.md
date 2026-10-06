@@ -267,7 +267,11 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 | When (UK) | Video | Slot | historyId |
 |---|---|---|---|
-| Wed 07 Oct ~12:16 AM (NOW) | batch2/vid_09 | now | `6ac5816845ccb79f0ef25bae` |
+| Wed 07 Oct ~12:16 AM (NOW) | batch2/vid_09 | night (today's post) | `6ac5816845ccb79f0ef25bae` |
+| Thu 08 Oct 12:30 PM | batch2/vid_10 | day | `6ac583a345ccb79f0ef25c9d` |
+| Thu 08 Oct 8:30 PM | batch2/vid_11 | night | `6ac583a645ccb79f0ef25cab` |
+| Fri 09 Oct 12:30 PM | batch2/vid_12 | day | `6ac583ae45ccb79f0ef25cb5` |
+| Fri 09 Oct 8:30 PM | batch2/vid_13 | night | `6ac583b445ccb79f0ef25cd1` |
 
 ---
 
@@ -287,7 +291,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: batch2/vid_10
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: batch2/vid_14
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State

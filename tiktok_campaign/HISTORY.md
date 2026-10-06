@@ -4,9 +4,13 @@ Key: taisly_e995…69b7 | Immediate post (off-cycle) | Caption: "Money is power 
 
 | When (UK, BST) | Video | Slot | historyId | Status |
 |---|---|---|---|---|
-| Wed 2026-10-07 ~12:16 AM (NOW) | batch2/vid_09.mp4 | — now | 6ac5816845ccb79f0ef25bae | publishing |
+| Wed 2026-10-07 ~12:16 AM (NOW) | batch2/vid_09.mp4 | 🌙 night (today's post) | 6ac5816845ccb79f0ef25bae | publishing |
+| Thu 2026-10-08 12:30 PM | batch2/vid_10.mp4 | ☀️ day | 6ac583a345ccb79f0ef25c9d | PENDING |
+| Thu 2026-10-08 8:30 PM | batch2/vid_11.mp4 | 🌙 night | 6ac583a645ccb79f0ef25cab | PENDING |
+| Fri 2026-10-09 12:30 PM | batch2/vid_12.mp4 | ☀️ day | 6ac583ae45ccb79f0ef25cb5 | PENDING |
+| Fri 2026-10-09 8:30 PM | batch2/vid_13.mp4 | 🌙 night | 6ac583b445ccb79f0ef25cd1 | PENDING |
 
-Created 2026-10-06 23:16 UTC. Next key for this account = day batch per standing rules.
+Created 2026-10-06 23:16 / 2026-10-07 00:22 UTC. Wed 07's 12:16 AM post counts as that day's post; pairs start Thu 08.
 Check: taisly posts:status --id <historyId>
 
 ---
