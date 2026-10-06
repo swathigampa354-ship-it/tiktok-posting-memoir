@@ -34,7 +34,7 @@ Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated 
 
 **DST note:** UK on BST (UTC+1) until Sun 25 Oct 2026, then GMT (UTC+0). All Taisly schedules use explicit offsets, so UK wall-clock time must be re-checked at the switch.
 
-**Batch pattern:** each new Taisly key arrives with a freshly connected TikTok account → take the next 3–4 unused videos in order → post the 1st immediately, schedule the rest at 12:30 AM UK on consecutive days.
+**Batch pattern:** each new Taisly key arrives with a connected TikTok account (verify username + platform ID via `platforms:list`; same ID = append, new ID = new ledger entry) → take the next unused videos in order → post per the operator's slot instruction. Slots: **day = 12:30 PM UK, night = 8:30 PM UK** (8h gap; ~5 posts per key).
 
 ---
 
@@ -134,6 +134,19 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 - ℹ️ **Correction (03 Oct):** source repo actually contains **vid_01–vid_50 (50 videos)** — an earlier truncated listing made me wrongly report the inventory as exhausted. Used so far: vid_02–vid_17; next up: vid_18.
 
+### Campaign 6 — TikTok `nextgencapital_292` reconnected (platform id `6ac495c69117edafc7754cdc`)  ← LATEST
+- **Key:** `taisly_71ab…273a` · **Date:** Tue 06 Oct 2026
+- **Note:** same TikTok username as Campaign 5 but a **new connection/platform ID** — ledger rule: new ID = new entry.
+- **Timing:** one-off 2:30 PM UK (06 Oct), then fixed **day 12:30 PM / night 8:30 PM** from 07 Oct.
+
+| When (UK) | Video | Slot | historyId |
+|---|---|---|---|
+| Tue 06 Oct 2:30 PM | vid_19 | one-off | `6ac496d89117edafc7754d7e` |
+| Wed 07 Oct 12:30 PM | vid_20 | day | `6ac496db9117edafc7754d88` |
+| Wed 07 Oct 8:30 PM | vid_21 | night | `6ac496de9117edafc7754d92` |
+| Thu 08 Oct 12:30 PM | vid_22 | day | `6ac496e19117edafc7754d9c` |
+| Thu 08 Oct 8:30 PM | vid_23 | night | `6ac496e49117edafc7754da6` |
+
 ---
 
 ## 5. Operational Notes (gotchas learned)
@@ -152,7 +165,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_19 (repo holds vid_01–vid_50)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_24 (repo holds vid_01–vid_50)
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State
@@ -165,4 +178,4 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - **No video files** — removed after each campaign per operator rule
 
 ---
-*Log maintained in `tiktok_campaign/` · last updated 2026-10-03 (Sat) UK time*
+*Log maintained in `tiktok_campaign/` · last updated 2026-10-06 (Tue) UK time*

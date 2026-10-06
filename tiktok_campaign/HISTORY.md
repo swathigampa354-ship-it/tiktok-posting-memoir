@@ -1,4 +1,21 @@
-# Taisly Campaign — nextgencapital_292 (6ac0c82b502f9f77444eec34) [LATEST]
+# Taisly Campaign — nextgencapital_292 RECONNECTED (6ac495c69117edafc7754cdc) [LATEST]
+
+Key: taisly_71ab…273a | Timing: one-off 2:30 PM (06 Oct) + day/night (12:30 PM / 8:30 PM) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK, BST) | Video | Slot | historyId | Status |
+|---|---|---|---|---|
+| Tue 2026-10-06 2:30 PM | vid_19.mp4 | one-off | 6ac496d89117edafc7754d7e | PENDING |
+| Wed 2026-10-07 12:30 PM | vid_20.mp4 | ☀️ day | 6ac496db9117edafc7754d88 | PENDING |
+| Wed 2026-10-07 8:30 PM | vid_21.mp4 | 🌙 night | 6ac496de9117edafc7754d92 | PENDING |
+| Thu 2026-10-08 12:30 PM | vid_22.mp4 | ☀️ day | 6ac496e19117edafc7754d9c | PENDING |
+| Thu 2026-10-08 8:30 PM | vid_23.mp4 | 🌙 night | 6ac496e49117edafc7754da6 | PENDING |
+
+Created 2026-10-06 06:36 UTC.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — nextgencapital_292 (6ac0c82b502f9f77444eec34)
 
 Key: taisly_0f98…56547 | Timing: 12:30 AM UK | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
