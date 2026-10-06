@@ -181,6 +181,22 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ---
 
+### Campaign 9 — TikTok `slashybks18` / founderintel reconnected (platform id `6ac4cf699117edafc7756cc0`)  ← LATEST
+- **Key:** `taisly_515e…c98` · **Date:** Tue 06 Oct 2026
+- **Night batch** (standing rule): 5 × 8:30 PM on the same 5 anchor days as Campaign 8 (Wed 07 → Sun 11 Oct).
+
+| When (UK) | Video | Slot | historyId |
+|---|---|---|---|
+| Wed 07 Oct 8:30 PM | vid_34 | night | `6ac4cfa99117edafc7756d14` |
+| Thu 08 Oct 8:30 PM | vid_35 | night | `6ac4cfac9117edafc7756d1e` |
+| Fri 09 Oct 8:30 PM | vid_36 | night | `6ac4cfaf9117edafc7756d3a` |
+| Sat 10 Oct 8:30 PM | vid_37 | night | `6ac4cfb29117edafc7756d66` |
+| Sun 11 Oct 8:30 PM | vid_38 | night | `6ac4cfb59117edafc7756d70` |
+
+- ✅ **First full day+night week complete** (07–11 Oct). Next cycle from Mon 12 Oct: next key = day batch.
+
+---
+
 ## 5. Operational Notes (gotchas learned)
 
 1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.
@@ -197,7 +213,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_34 (repo holds vid_01–vid_50)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_39 (repo holds vid_01–vid_50)
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State
