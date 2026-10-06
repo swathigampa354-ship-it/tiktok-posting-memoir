@@ -84,7 +84,7 @@
 | `6ac0c8d4502f9f77444eeca0` | vid_16 | Mon 05 Oct 12:30 AM | ✅ fired (unverified) |
 | `6ac0c8d7502f9f77444eecba` | vid_17 | Tue 06 Oct 12:30 AM | ✅ fired (unverified) |
 
-## Account 6 — `nextgencapital_292` (reconnected)  ← ACTIVE
+## Account 6 — `nextgencapital_292` (reconnected)
 - **Platform ID:** `6ac495c69117edafc7754cdc` (new connection — same TikTok username as Account 5, different platform ID per ledger rule)
 - **Key used:** `taisly_71ab…273a`
 - **Created:** Tue 06 Oct 2026 · Timing: one-off 2:30 PM (today), then fixed day/night (12:30 PM / 8:30 PM)
@@ -95,9 +95,28 @@
 | `6ac496db9117edafc7754d88` | vid_20 | Wed 07 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
 | `6ac496de9117edafc7754d92` | vid_21 | Wed 07 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
 | `6ac496e19117edafc7754d9c` | vid_22 | Thu 08 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
-| `6ac496e49117edafc7754da6` | vid_23 | Thu 08 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
+| `6ac496e49117edafc7754da6` | vid_23 | Thu 08 Oct 8:30 PM | 🌙 night | ✅ fired (unverified) |
 
 ---
+
+## Account 7 — `nextgencapital_292` (reconnected again)  ← ACTIVE
+- **Platform ID:** `6ac4984d9117edafc7754e69` (new connection — operator confirmed: same TikTok account as Accounts 5 & 6, old connection posts stay valid)
+- **Key used:** `taisly_b953…e21e`
+- **Created:** Tue 06 Oct 2026 · Rule: every day must end with ☀️ day + 🌙 night; this batch fills the slots missing from the previous batch
+
+| historyId | Vid | When (UK) | Slot | Status |
+|---|---|---|---|---|
+| `6ac4999b9117edafc7754f44` | vid_24 | Tue 06 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4999e9117edafc7754f4e` | vid_25 | Tue 06 Oct 8:30 PM | 🌙 night |  upcoming |
+| `6ac499a19117edafc7754f59` | vid_26 | Fri 09 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac499a49117edafc7754f63` | vid_27 | Fri 09 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
+| `6ac499a79117edafc7754f6d` | vid_28 | Sat 10 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+
+Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign 6.
+
+---
+
+## Key → Account Map (for instant lookup)
 
 | Taisly key (masked) | TikTok username | Platform ID |
 |---|---|---|
@@ -108,15 +127,16 @@
 | `taisly_4ad2…943a` | businesssignals_20 | `6abe388d3716f32795361307` |
 | `taisly_0f98…56547` | nextgencapital_292 | `6ac0c82b502f9f77444eec34` |
 | `taisly_71ab…273a` | nextgencapital_292 (reconnected) | `6ac495c69117edafc7754cdc` |
+| `taisly_b953…e21e` | nextgencapital_292 (reconnected again) | `6ac4984d9117edafc7754e69` |
 
 ---
 
 ## Totals (as of Tue 06 Oct 2026, UK)
 
-- **Accounts tracked:** 6
-- **Keys logged:** 7
-- **Posts created:** 28 (23 fired/unverified · 5 upcoming on nextgencapital_292 reconnect)
-- **Videos used:** vid_02 – vid_23 (22 of 50) · **next up: vid_24**
+- **Accounts tracked:** 7
+- **Keys logged:** 8
+- **Posts created:** 33 (23 fired/unverified · 10 upcoming on nextgencapital_292)
+- **Videos used:** vid_02 – vid_28 (27 of 50) · **next up: vid_29**
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*

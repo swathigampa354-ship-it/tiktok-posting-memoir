@@ -147,6 +147,19 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | Thu 08 Oct 12:30 PM | vid_22 | day | `6ac496e19117edafc7754d9c` |
 | Thu 08 Oct 8:30 PM | vid_23 | night | `6ac496e49117edafc7754da6` |
 
+### Campaign 7 — TikTok `nextgencapital_292` reconnected again (platform id `6ac4984d9117edafc7754e69`)  ← LATEST
+- **Key:** `taisly_b953…e21e` · **Date:** Tue 06 Oct 2026
+- **Rule change:** operator confirmed old + new connection IDs are the same account (old posts valid). New standing rule: **every day must end with exactly 2 posts — ☀️ day 12:30 PM + 🌙 night 8:30 PM.** Each new batch checks existing schedules per date and adds only the missing slot(s) on that same day.
+- Wed 07 & Thu 08 Oct skipped (already full from Campaign 6).
+
+| When (UK) | Video | Slot | historyId |
+|---|---|---|---|
+| Tue 06 Oct 12:30 PM | vid_24 | day | `6ac4999b9117edafc7754f44` |
+| Tue 06 Oct 8:30 PM | vid_25 | night | `6ac4999e9117edafc7754f4e` |
+| Fri 09 Oct 12:30 PM | vid_26 | day | `6ac499a19117edafc7754f59` |
+| Fri 09 Oct 8:30 PM | vid_27 | night | `6ac499a49117edafc7754f63` |
+| Sat 10 Oct 12:30 PM | vid_28 | day | `6ac499a79117edafc7754f6d` |
+
 ---
 
 ## 5. Operational Notes (gotchas learned)
@@ -165,7 +178,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_24 (repo holds vid_01–vid_50)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_29 (repo holds vid_01–vid_50)
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State
@@ -178,4 +191,4 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - **No video files** — removed after each campaign per operator rule
 
 ---
-*Log maintained in `tiktok_campaign/` · last updated 2026-10-06 (Tue) UK time*
+*Log maintained in `tiktok_campaign/` · last updated 2026-10-06 (Tue) UK time — Campaign 7*

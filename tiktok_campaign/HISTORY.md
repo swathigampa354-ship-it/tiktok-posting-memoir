@@ -1,4 +1,21 @@
-# Taisly Campaign — nextgencapital_292 RECONNECTED (6ac495c69117edafc7754cdc) [LATEST]
+# Taisly Campaign — nextgencapital_292 RECONNECTED #2 (6ac4984d9117edafc7754e69) [LATEST]
+
+Key: taisly_b953…e21e | Rule: fill missing day/night slots so every day = ☀️ day (12:30 PM) + 🌙 night (8:30 PM) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK, BST) | Video | Slot | historyId | Status |
+|---|---|---|---|---|
+| Tue 2026-10-06 12:30 PM | vid_24.mp4 | ☀️ day | 6ac4999b9117edafc7754f44 | PENDING |
+| Tue 2026-10-06 8:30 PM | vid_25.mp4 | 🌙 night | 6ac4999e9117edafc7754f4e | PENDING |
+| Fri 2026-10-09 12:30 PM | vid_26.mp4 | ☀️ day | 6ac499a19117edafc7754f59 | PENDING |
+| Fri 2026-10-09 8:30 PM | vid_27.mp4 | 🌙 night | 6ac499a49117edafc7754f63 | PENDING |
+| Sat 2026-10-10 12:30 PM | vid_28.mp4 | ☀️ day | 6ac499a79117edafc7754f6d | PENDING |
+
+Created 2026-10-06 06:48 UTC. Wed 07/Thu 08 Oct intentionally untouched (already day+night from previous campaign).
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — nextgencapital_292 RECONNECTED (6ac495c69117edafc7754cdc)
 
 Key: taisly_71ab…273a | Timing: one-off 2:30 PM (06 Oct) + day/night (12:30 PM / 8:30 PM) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
