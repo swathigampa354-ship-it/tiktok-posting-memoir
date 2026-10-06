@@ -39,6 +39,7 @@ Original 2-per-day plan: **12:30 PM + 7:00 PM** (6.5 h gap). Later consolidated 
 - Even key → **night batch**: 5 posts at 8:30 PM UK on **those same 5 days**
 - Result: every day = exactly 2 posts (day + night, 8h gap). 2 keys = 10 days = 20 posts.
 - Always: verify username + platform ID via `platforms:list` (same ID = append, new ID = new ledger entry) and take the next unused videos in order.
+- **Auto-choose (06 Oct):** operator sends bare keys without day/night labels; the agent continues the alternation itself (day → night → day → …).
 
 ---
 
@@ -197,6 +198,21 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ---
 
+### Campaign 10 — TikTok `slashybks18` / founderintel reconnected #2 (platform id `6ac4d30e9117edafc77571b5`)  ← LATEST
+- **Key:** `taisly_f696…8d1` · **Date:** Tue 06 Oct 2026
+- **Auto-choose era begins:** operator sends bare keys; agent picks day/night itself (continuing alternation: prev = night → this = day).
+- **Day batch:** 5 × 12:30 PM, Mon 12 → Fri 16 Oct. Night batch = next key, same 5 days.
+
+| When (UK) | Video | Slot | historyId |
+|---|---|---|---|
+| Mon 12 Oct 12:30 PM | vid_39 | day | `6ac4d3909117edafc775720e` |
+| Tue 13 Oct 12:30 PM | vid_40 | day | `6ac4d3939117edafc7757218` |
+| Wed 14 Oct 12:30 PM | vid_41 | day | `6ac4d3979117edafc7757222` |
+| Thu 15 Oct 12:30 PM | vid_42 | day | `6ac4d39a9117edafc775722c` |
+| Fri 16 Oct 12:30 PM | vid_43 | day | `6ac4d39d9117edafc7757236` |
+
+---
+
 ## 5. Operational Notes (gotchas learned)
 
 1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.
@@ -213,7 +229,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_39 (repo holds vid_01–vid_50)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: vid_44 (repo holds vid_01–vid_50)
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State

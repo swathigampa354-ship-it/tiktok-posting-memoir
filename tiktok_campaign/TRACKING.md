@@ -8,6 +8,7 @@
 3. Platform ID **new** → create a new account entry
 4. Every `posts:create` result (historyId, video, scheduled time, status) is logged immediately below
 5. **Standing rule (06 Oct):** keys alternate **day batch → night batch on the same 5 days**. Key N (odd) = 5 × day (12:30 PM) on 5 consecutive days from the next available day; Key N+1 (even) = 5 × night (8:30 PM) on those same 5 days. Each day therefore ends with exactly 2 posts.
+6. **Auto-choose (06 Oct):** the operator no longer labels the key — the agent picks day/night itself, continuing the alternation (day → night → day → …).
 
 **Statuses:** 📤 published now · 🕐 upcoming (date still ahead) · ✅ fired (scheduled date has passed — confirm on TikTok) · ⚠️ unverified
 
@@ -134,7 +135,7 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 
 ---
 
-## Account 9 — `slashybks18` (reconnected)  ← ACTIVE
+## Account 9 — `slashybks18` (reconnected)
 - **Platform ID:** `6ac4cf699117edafc7756cc0` (same account as Account 8, reconnected)
 - **Key used:** `taisly_515e…c98`
 - **Created:** Tue 06 Oct 2026 · **Night batch** (5 × 8:30 PM, same 5 anchor days as Campaign 8: Wed 07 → Sun 11 Oct)
@@ -148,6 +149,23 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `6ac4cfb59117edafc7756d70` | vid_38 | Sun 11 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
 
 ✅ **Week complete:** Wed 07 → Sun 11 Oct now have day + night on every day. Next cycle starts Mon 12 Oct (next key = day batch).
+
+---
+
+## Account 10 — `slashybks18` (reconnected)  ← ACTIVE
+- **Platform ID:** `6ac4d30e9117edafc77571b5` (same account as Accounts 8 & 9, reconnected)
+- **Key used:** `taisly_f696…8d1`
+- **Created:** Tue 06 Oct 2026 · **Day batch** (5 × 12:30 PM, Mon 12 → Fri 16 Oct) — slot auto-chosen per standing alternation (prev was night)
+
+| historyId | Vid | When (UK) | Slot | Status |
+|---|---|---|---|---|
+| `6ac4d3909117edafc775720e` | vid_39 | Mon 12 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4d3939117edafc7757218` | vid_40 | Tue 13 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4d3979117edafc7757222` | vid_41 | Wed 14 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4d39a9117edafc775722c` | vid_42 | Thu 15 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4d39d9117edafc7757236` | vid_43 | Fri 16 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+
+⏳ **Night batch pending:** next key = 5 × 8:30 PM on these same 5 days (12–16 Oct).
 
 ---
 
@@ -165,15 +183,16 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `taisly_b953…e21e` | nextgencapital_292 (reconnected again) | `6ac4984d9117edafc7754e69` |
 | `taisly_f436…f364` | slashybks18 (founderintel) | `6ac4ce719117edafc7756bcd` |
 | `taisly_515e…c98` | slashybks18 (reconnected) | `6ac4cf699117edafc7756cc0` |
+| `taisly_f696…8d1` | slashybks18 (reconnected) | `6ac4d30e9117edafc77571b5` |
 
 ---
 
 ## Totals (as of Tue 06 Oct 2026, UK)
 
-- **Accounts tracked:** 9
-- **Keys logged:** 10
-- **Posts created:** 43 (23 fired/unverified · 20 upcoming)
-- **Videos used:** vid_02 – vid_38 (37 of 50) · **next up: vid_39**
+- **Accounts tracked:** 10
+- **Keys logged:** 11
+- **Posts created:** 48 (23 fired/unverified · 25 upcoming)
+- **Videos used:** vid_02 – vid_43 (42 of 50) · **next up: vid_44**
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*

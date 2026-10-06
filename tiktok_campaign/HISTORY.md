@@ -1,4 +1,21 @@
-# Taisly Campaign — slashybks18 / founderintel RECONNECTED (6ac4cf699117edafc7756cc0) [LATEST]
+# Taisly Campaign — slashybks18 / founderintel RECONNECTED #2 (6ac4d30e9117edafc77571b5) [LATEST]
+
+Key: taisly_f696…8d1 | Day batch (auto-chosen): 5 × 12:30 PM, Mon 12 → Fri 16 Oct | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK, BST) | Video | Slot | historyId | Status |
+|---|---|---|---|---|
+| Mon 2026-10-12 12:30 PM | vid_39.mp4 | ☀️ day | 6ac4d3909117edafc775720e | PENDING |
+| Tue 2026-10-13 12:30 PM | vid_40.mp4 | ☀️ day | 6ac4d3939117edafc7757218 | PENDING |
+| Wed 2026-10-14 12:30 PM | vid_41.mp4 | ☀️ day | 6ac4d3979117edafc7757222 | PENDING |
+| Thu 2026-10-15 12:30 PM | vid_42.mp4 | ☀️ day | 6ac4d39a9117edafc775722c | PENDING |
+| Fri 2026-10-16 12:30 PM | vid_43.mp4 | ☀️ day | 6ac4d39d9117edafc7757236 | PENDING |
+
+Created 2026-10-06 10:55 UTC. Night batch = next key, same 5 days at 8:30 PM.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — slashybks18 / founderintel RECONNECTED (6ac4cf699117edafc7756cc0)
 
 Key: taisly_515e…c98 | Night batch: 5 × 8:30 PM, same 5 anchor days as day batch (Wed 07 → Sun 11 Oct) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
