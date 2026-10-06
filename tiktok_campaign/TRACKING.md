@@ -100,7 +100,7 @@
 
 ---
 
-## Account 7 — `nextgencapital_292` (reconnected again)  ← ACTIVE
+## Account 7 — `nextgencapital_292` (reconnected again)
 - **Platform ID:** `6ac4984d9117edafc7754e69` (new connection — operator confirmed: same TikTok account as Accounts 5 & 6, old connection posts stay valid)
 - **Key used:** `taisly_b953…e21e`
 - **Created:** Tue 06 Oct 2026 · Rule: every day must end with ☀️ day + 🌙 night; this batch fills the slots missing from the previous batch
@@ -117,6 +117,23 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 
 ---
 
+## Account 8 — `slashybks18` (displayName: founderintel)  ← ACTIVE
+- **Platform ID:** `6ac4ce719117edafc7756bcd` (brand new account)
+- **Key used:** `taisly_f436…f364`
+- **Created:** Tue 06 Oct 2026 · **Day batch** (5 × 12:30 PM, Wed 07 → Sun 11 Oct; nothing today per operator)
+
+| historyId | Vid | When (UK) | Slot | Status |
+|---|---|---|---|---|
+| `6ac4cef89117edafc7756c1e` | vid_29 | Wed 07 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4cefb9117edafc7756c28` | vid_30 | Thu 08 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4cefe9117edafc7756c42` | vid_31 | Fri 09 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4cf019117edafc7756c4c` | vid_32 | Sat 10 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac4cf049117edafc7756c56` | vid_33 | Sun 11 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+
+⏳ **Night batch pending:** next key = 5 × 8:30 PM on these same 5 days (07–11 Oct).
+
+---
+
 ## Key → Account Map (for instant lookup)
 
 | Taisly key (masked) | TikTok username | Platform ID |
@@ -129,15 +146,16 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `taisly_0f98…56547` | nextgencapital_292 | `6ac0c82b502f9f77444eec34` |
 | `taisly_71ab…273a` | nextgencapital_292 (reconnected) | `6ac495c69117edafc7754cdc` |
 | `taisly_b953…e21e` | nextgencapital_292 (reconnected again) | `6ac4984d9117edafc7754e69` |
+| `taisly_f436…f364` | slashybks18 (founderintel) | `6ac4ce719117edafc7756bcd` |
 
 ---
 
 ## Totals (as of Tue 06 Oct 2026, UK)
 
-- **Accounts tracked:** 7
-- **Keys logged:** 8
-- **Posts created:** 33 (23 fired/unverified · 10 upcoming on nextgencapital_292)
-- **Videos used:** vid_02 – vid_28 (27 of 50) · **next up: vid_29**
+- **Accounts tracked:** 8
+- **Keys logged:** 9
+- **Posts created:** 38 (23 fired/unverified · 15 upcoming)
+- **Videos used:** vid_02 – vid_33 (32 of 50) · **next up: vid_34**
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*
