@@ -230,6 +230,23 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ---
 
+### Campaign 12 — TikTok `moneymindset996` / MoneyMindset (platform id `6ac4ed559117edafc77583b6`)  ← LATEST
+- **Key:** `taisly_fc1d…d68c` · **Date:** Tue 06 Oct 2026
+- **Brand-new account.** Operator rule refined: "new ID starts again — day, night" (each new account begins its own day→night cycle).
+- **Day batch:** 5 × 12:30 PM, Wed 07 → Sun 11 Oct. **This batch completes batch 1 (vid_49–50) and begins batch 2 (vid_01–03).**
+
+| When (UK) | Video | Slot | historyId |
+|---|---|---|---|
+| Wed 07 Oct 12:30 PM | batch1/vid_49 | day | `6ac4ee709117edafc77584af` |
+| Thu 08 Oct 12:30 PM | batch1/vid_50 | day | `6ac4ee739117edafc77584b9` |
+| Fri 09 Oct 12:30 PM | batch2/vid_01 | day | `6ac4ee769117edafc77584c3` |
+| Sat 10 Oct 12:30 PM | batch2/vid_02 | day | `6ac4ee7a9117edafc77584db` |
+| Sun 11 Oct 12:30 PM | batch2/vid_03 | day | `6ac4ee7d9117edafc77584ee` |
+
+- ✅ **Batch 1 (videos/vid_02–vid_50): fully deployed.** Queue now runs on batch2.
+
+---
+
 ## 5. Operational Notes (gotchas learned)
 
 1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.
@@ -246,7 +263,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: batch1/vid_49 (then batch2/vid_01+)
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: batch2/vid_04
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State
