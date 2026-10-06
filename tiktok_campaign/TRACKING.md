@@ -204,7 +204,7 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 
 ---
 
-## Account 13 — `moneymindset996` (reconnected)  ← ACTIVE
+## Account 13 — `moneymindset996` (reconnected)
 - **Platform ID:** `6ac4f3229117edafc77587ce` (same account as Account 12, reconnected)
 - **Key used:** `taisly_de96…741`
 - **Created:** Tue 06 Oct 2026 · **Night batch** (5 × 8:30 PM, same 5 anchor days as Campaign 12: Wed 07 → Sun 11 Oct)
@@ -218,6 +218,19 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `6ac4f3679117edafc775884c` | batch2/vid_08 | Sun 11 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
 
 ✅ **Week complete for moneymindset996:** Wed 07 → Sun 11 Oct have day + night on every day.
+
+---
+
+## Account 14 — `wealthtechmedia`  ← ACTIVE
+- **Platform ID:** `6ac5812545ccb79f0ef25b59` (brand new account)
+- **Key used:** `taisly_e995…69b7`
+- **Created:** Wed 07 Oct 2026 (00:16 AM UK) · **Immediate post** (operator: "post a vid. Now") — off-cycle, starts this account's rotation
+
+| historyId | Vid | When (UK) | Slot | Status |
+|---|---|---|---|---|
+| `6ac5816845ccb79f0ef25bae` | batch2/vid_09 | Wed 07 Oct ~12:16 AM (NOW) | — now | 📤 publishing |
+
+⏳ **Cycle pending:** next key for this account → day batch (5 × 12:30 PM), then night batch, per standing rules.
 
 ---
 
@@ -239,15 +252,16 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `taisly_d5f5…53f2` | startupdecoded | `6ac4e3e89117edafc7757e24` |
 | `taisly_fc1d…d68c` | moneymindset996 (MoneyMindset) | `6ac4ed559117edafc77583b6` |
 | `taisly_de96…741` | moneymindset996 (reconnected) | `6ac4f3229117edafc77587ce` |
+| `taisly_e995…69b7` | wealthtechmedia | `6ac5812545ccb79f0ef25b59` |
 
 ---
 
-## Totals (as of Tue 06 Oct 2026, UK)
+## Totals (as of Wed 07 Oct 2026, UK)
 
-- **Accounts tracked:** 13
-- **Keys logged:** 14
-- **Posts created:** 63 (23 fired/unverified · 40 upcoming)
-- **Videos used:** batch1 **COMPLETE** (vid_02–50) · batch2 vid_01–08 · **next up: batch2/vid_09**
+- **Accounts tracked:** 14
+- **Keys logged:** 15
+- **Posts created:** 64 (24 fired/unverified · 40 upcoming)
+- **Videos used:** batch1 **COMPLETE** (vid_02–50) · batch2 vid_01–09 · **next up: batch2/vid_10**
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*

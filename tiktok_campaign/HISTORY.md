@@ -1,4 +1,17 @@
-# Taisly Campaign — moneymindset996 / MoneyMindset RECONNECTED (6ac4f3229117edafc77587ce) [LATEST]
+# Taisly Campaign — wealthtechmedia (6ac5812545ccb79f0ef25b59) [LATEST]
+
+Key: taisly_e995…69b7 | Immediate post (off-cycle) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK, BST) | Video | Slot | historyId | Status |
+|---|---|---|---|---|
+| Wed 2026-10-07 ~12:16 AM (NOW) | batch2/vid_09.mp4 | — now | 6ac5816845ccb79f0ef25bae | publishing |
+
+Created 2026-10-06 23:16 UTC. Next key for this account = day batch per standing rules.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — moneymindset996 / MoneyMindset RECONNECTED (6ac4f3229117edafc77587ce)
 
 Key: taisly_de96…741 | Night batch: 5 × 8:30 PM, same 5 anchor days (Wed 07 → Sun 11 Oct) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
