@@ -290,6 +290,19 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ---
 
+### Campaign 16 — Instagram `businessdecoded67` reconnected (platform id `6ac61d8b45ccb79f0ef2d202`)  ← LATEST
+- **Key:** `taisly_3116…46f` · **Date:** Wed 07 Oct 2026
+- **4-post burst, same format as Campaign 15** (5-min gaps, today, from day slot): batch1/vid_10–13 at 12:30/12:35/12:40/12:45 PM.
+
+| When (UK) | Video | historyId |
+|---|---|---|
+| Wed 07 Oct 12:30 PM | batch1/vid_10 | `6ac61e5d45ccb79f0ef2d269` |
+| Wed 07 Oct 12:35 PM | batch1/vid_11 | `6ac61e6045ccb79f0ef2d276` |
+| Wed 07 Oct 12:40 PM | batch1/vid_12 | `6ac61e6345ccb79f0ef2d280` |
+| Wed 07 Oct 12:45 PM | batch1/vid_13 | `6ac61e6745ccb79f0ef2d29a` |
+
+---
+
 ## 5. Operational Notes (gotchas learned)
 
 1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.

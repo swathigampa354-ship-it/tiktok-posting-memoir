@@ -1,4 +1,20 @@
-# Taisly Campaign — businessdecoded67 / INSTAGRAM (6ac61a5845ccb79f0ef2cfd1) [LATEST]
+# Taisly Campaign — businessdecoded67 / INSTAGRAM RECONNECTED (6ac61d8b45ccb79f0ef2d202) [LATEST]
+
+Key: taisly_3116…46f | 4-post burst, same format (5-min gaps), today Wed 07 Oct, 12:30 → 12:45 PM | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK, BST) | Video | historyId | Status |
+|---|---|---|---|
+| Wed 2026-10-07 12:30 PM | batch1/vid_10.mp4 | 6ac61e5d45ccb79f0ef2d269 | PENDING |
+| Wed 2026-10-07 12:35 PM | batch1/vid_11.mp4 | 6ac61e6045ccb79f0ef2d276 | PENDING |
+| Wed 2026-10-07 12:40 PM | batch1/vid_12.mp4 | 6ac61e6345ccb79f0ef2d280 | PENDING |
+| Wed 2026-10-07 12:45 PM | batch1/vid_13.mp4 | 6ac61e6745ccb79f0ef2d29a | PENDING |
+
+Created 2026-10-07 10:26 UTC.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businessdecoded67 / INSTAGRAM (6ac61a5845ccb79f0ef2cfd1)
 
 Key: taisly_3743…cd5 | 5-min-gap burst, all today Wed 07 Oct, starting at the day slot | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
