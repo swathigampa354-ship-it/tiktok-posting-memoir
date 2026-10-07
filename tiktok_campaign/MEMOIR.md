@@ -5,7 +5,7 @@
 - `videos/` — **Batch 1**: vid_01–vid_50 (50)
 - `batch2/` — **Batch 2**: vid_01–vid_50 (50, added 06 Oct) — same video/style, different headlines. Numbering restarts, so always reference as `batch1/vid_XX` vs `batch2/vid_XX`.
 **Posting platform:** Taisly agent API (`@taisly/agent` npm CLI, `taisly` binary)
-**Target platform:** TikTok only
+**Target platforms:** TikTok (9 accounts) + Instagram (1 account: businessdecoded67)
 
 > Security note: Taisly API keys and tokens are deliberately **masked** in this document (per skill safety rules: never print secrets). Full credentials live only in the operator's possession.
 
@@ -272,6 +272,21 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | Thu 08 Oct 8:30 PM | batch2/vid_11 | night | `6ac583a645ccb79f0ef25cab` |
 | Fri 09 Oct 12:30 PM | batch2/vid_12 | day | `6ac583ae45ccb79f0ef25cb5` |
 | Fri 09 Oct 8:30 PM | batch2/vid_13 | night | `6ac583b445ccb79f0ef25cd1` |
+
+---
+
+### Campaign 15 — Instagram `businessdecoded67` (platform id `6ac61a5845ccb79f0ef2cfd1`)  ← LATEST
+- **Key:** `taisly_3743…cd5` · **Date:** Wed 07 Oct 2026
+- **📸 First Instagram account** — the operation now spans TikTok + Instagram (same CLI, 9:16 reels, same caption).
+- **Operator instruction:** "pick from the 5th vid, 5-min gap between each post, post all today" → burst of 5 at 12:30/12:35/12:40/12:45/12:50 PM (batch1/vid_05–09, cross-account reuse).
+
+| When (UK) | Video | historyId |
+|---|---|---|
+| Wed 07 Oct 12:30 PM | batch1/vid_05 | `6ac61be645ccb79f0ef2d0c2` |
+| Wed 07 Oct 12:35 PM | batch1/vid_06 | `6ac61be945ccb79f0ef2d0f2` |
+| Wed 07 Oct 12:40 PM | batch1/vid_07 | `6ac61bec45ccb79f0ef2d0fc` |
+| Wed 07 Oct 12:45 PM | batch1/vid_08 | `6ac61bef45ccb79f0ef2d106` |
+| Wed 07 Oct 12:50 PM | batch1/vid_09 | `6ac61bf245ccb79f0ef2d114` |
 
 ---
 

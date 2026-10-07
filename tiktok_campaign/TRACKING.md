@@ -221,7 +221,7 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 
 ---
 
-## Account 14 — `wealthtechmedia`  ← ACTIVE
+## Account 14 — `wealthtechmedia`
 - **Platform ID:** `6ac5812545ccb79f0ef25b59` (brand new account)
 - **Key used:** `taisly_e995…69b7`
 - **Created:** Wed 07 Oct 2026 (00:16 AM UK) · **Immediate post** (operator: "post a vid. Now") — off-cycle, starts this account's rotation
@@ -235,6 +235,22 @@ Wed 07 & Thu 08 Oct need no new posts — already full (day+night) from Campaign
 | `6ac583b445ccb79f0ef25cd1` | batch2/vid_13 | Fri 09 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
 
 Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night; the other 4 = proper day/night pairs from Thu 08.
+
+---
+
+## Account 15 — `businessdecoded67` (**Instagram**)  ← ACTIVE
+- **Platform ID:** `6ac61a5845ccb79f0ef2cfd1` (brand new account — **first Instagram account** in this operation)
+- **Key used:** `taisly_3743…cd5`
+- **Created:** Wed 07 Oct 2026 · **5-min-gap burst**: 5 posts today, 12:30 → 12:50 PM (5-min intervals)
+- **Note:** reuses batch1/vid_05–09 (already posted on earlier TikTok accounts — cross-account reuse per operator)
+
+| historyId | Vid | When (UK) | Status |
+|---|---|---|---|
+| `6ac61be645ccb79f0ef2d0c2` | batch1/vid_05 | Wed 07 Oct 12:30 PM | 🕐 upcoming |
+| `6ac61be945ccb79f0ef2d0f2` | batch1/vid_06 | Wed 07 Oct 12:35 PM | 🕐 upcoming |
+| `6ac61bec45ccb79f0ef2d0fc` | batch1/vid_07 | Wed 07 Oct 12:40 PM | 🕐 upcoming |
+| `6ac61bef45ccb79f0ef2d106` | batch1/vid_08 | Wed 07 Oct 12:45 PM | 🕐 upcoming |
+| `6ac61bf245ccb79f0ef2d114` | batch1/vid_09 | Wed 07 Oct 12:50 PM | 🕐 upcoming |
 
 ---
 
@@ -257,15 +273,16 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 | `taisly_fc1d…d68c` | moneymindset996 (MoneyMindset) | `6ac4ed559117edafc77583b6` |
 | `taisly_de96…741` | moneymindset996 (reconnected) | `6ac4f3229117edafc77587ce` |
 | `taisly_e995…69b7` | wealthtechmedia | `6ac5812545ccb79f0ef25b59` |
+| `taisly_3743…cd5` | **IG** businessdecoded67 | `6ac61a5845ccb79f0ef2cfd1` |
 
 ---
 
 ## Totals (as of Wed 07 Oct 2026, UK)
 
-- **Accounts tracked:** 14
-- **Keys logged:** 15
-- **Posts created:** 68 (24 fired/unverified · 44 upcoming)
-- **Videos used:** batch1 **COMPLETE** (vid_02–50) · batch2 vid_01–13 · **next up: batch2/vid_14**
+- **Accounts tracked:** 15 (14 TikTok + 1 Instagram)
+- **Keys logged:** 16
+- **Posts created:** 73 (24 fired/unverified · 49 upcoming)
+- **Videos used:** batch1 **COMPLETE** (vid_02–50, vid_05–09 reused on IG) · batch2 vid_01–13 · **next up: batch2/vid_14**
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*
