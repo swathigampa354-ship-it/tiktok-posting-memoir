@@ -1,4 +1,24 @@
-# Taisly Campaign — businessdecoded67 / INSTAGRAM RECONNECTED (6ac61d8b45ccb79f0ef2d202) [LATEST]
+# Taisly Campaign — businessdecoded67 / INSTAGRAM 4-PM-IST BURST (6ac61d8b45ccb79f0ef2d202) [LATEST]
+
+Key: taisly_3116…46f | Operator correction: 5 posts from **4:00 PM IST today**, 5-min gaps (IG runs on its own timing, no TikTok day/night rules) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK BST / IST) | Video | historyId | Status |
+|---|---|---|---|
+| Wed 2026-10-07 11:30 AM / 4:00 PM | batch1/vid_05.mp4 | 6ac61ee745ccb79f0ef2d30f | **PUBLISHED ✅** |
+| Wed 2026-10-07 11:35 AM / 4:05 PM | batch1/vid_06.mp4 | 6ac61fe345ccb79f0ef2d484 | PENDING |
+| Wed 2026-10-07 11:40 AM / 4:10 PM | batch1/vid_07.mp4 | 6ac61fe645ccb79f0ef2d48e | PENDING |
+| Wed 2026-10-07 11:45 AM / 4:15 PM | batch1/vid_08.mp4 | 6ac61fe945ccb79f0ef2d498 | PENDING |
+| Wed 2026-10-07 11:50 AM / 4:20 PM | batch1/vid_09.mp4 | 6ac61fec45ccb79f0ef2d4a2 | PENDING |
+
+Notes: first attempt hit STARTER plan limit (vid_05 only); operator upgraded; retries OK.
+Operator ordered CANCEL of the two wrong-time bursts (12:30–12:50 PM UK): Campaign 15's 5 + Campaign 16's 4 = 9 posts — **dashboard only** (API cannot cancel).
+
+Created 2026-10-07 10:29–10:35 UTC.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businessdecoded67 / INSTAGRAM RECONNECTED (6ac61d8b45ccb79f0ef2d202)
 
 Key: taisly_3116…46f | 4-post burst, same format (5-min gaps), today Wed 07 Oct, 12:30 → 12:45 PM | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 

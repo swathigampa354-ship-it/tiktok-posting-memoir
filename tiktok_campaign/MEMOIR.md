@@ -303,6 +303,22 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ---
 
+### Campaign 17 — Instagram `businessdecoded67` — corrected 4-PM-IST burst  ← LATEST
+- **Key:** `taisly_3116…46f` · **Date:** Wed 07 Oct 2026
+- **Operator correction:** IG batch = **5 posts from 4:00 PM IST today, 5-min gaps** — Instagram runs on operator-specified timing, NOT the TikTok day/night rule.
+- First attempt: STARTER plan limit hit after vid_05 → operator **upgraded plan** → retries succeeded.
+- ⚠️ Two wrong-time bursts (12:30–12:50 PM UK: Campaign 15's 5 + Campaign 16's 4) ordered **CANCEL via dashboard** — API has no cancel.
+
+| When (UK / IST) | Video | historyId |
+|---|---|---|
+| 11:30 AM / 4:00 PM | batch1/vid_05 | `6ac61ee745ccb79f0ef2d30f` ✅ published |
+| 11:35 AM / 4:05 PM | batch1/vid_06 | `6ac61fe345ccb79f0ef2d484` |
+| 11:40 AM / 4:10 PM | batch1/vid_07 | `6ac61fe645ccb79f0ef2d48e` |
+| 11:45 AM / 4:15 PM | batch1/vid_08 | `6ac61fe945ccb79f0ef2d498` |
+| 11:50 AM / 4:20 PM | batch1/vid_09 | `6ac61fec45ccb79f0ef2d4a2` |
+
+---
+
 ## 5. Operational Notes (gotchas learned)
 
 1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.

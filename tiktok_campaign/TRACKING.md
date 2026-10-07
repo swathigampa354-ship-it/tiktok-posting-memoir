@@ -261,10 +261,22 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 | historyId | Vid | When (UK) | Status |
 |---|---|---|---|
-| `6ac61e5d45ccb79f0ef2d269` | batch1/vid_10 | Wed 07 Oct 12:30 PM | 🕐 upcoming |
-| `6ac61e6045ccb79f0ef2d276` | batch1/vid_11 | Wed 07 Oct 12:35 PM | 🕐 upcoming |
-| `6ac61e6345ccb79f0ef2d280` | batch1/vid_12 | Wed 07 Oct 12:40 PM | 🕐 upcoming |
-| `6ac61e6745ccb79f0ef2d29a` | batch1/vid_13 | Wed 07 Oct 12:45 PM | 🕐 upcoming |
+| `6ac61e5d45ccb79f0ef2d269` | batch1/vid_10 | Wed 07 Oct 12:30 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
+| `6ac61e6045ccb79f0ef2d276` | batch1/vid_11 | Wed 07 Oct 12:35 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
+| `6ac61e6345ccb79f0ef2d280` | batch1/vid_12 | Wed 07 Oct 12:40 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
+| `6ac61e6745ccb79f0ef2d29a` | batch1/vid_13 | Wed 07 Oct 12:45 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
+
+**Corrected 4-PM-IST burst (5 posts, 5-min gaps) — the intended batch:**
+
+| historyId | Vid | When (UK / IST) | Status |
+|---|---|---|---|
+| `6ac61ee745ccb79f0ef2d30f` | batch1/vid_05 | Wed 07 Oct 11:30 AM / 4:00 PM | ✅ **published** |
+| `6ac61fe345ccb79f0ef2d484` | batch1/vid_06 | Wed 07 Oct 11:35 AM / 4:05 PM | 🕐 upcoming |
+| `6ac61fe645ccb79f0ef2d48e` | batch1/vid_07 | Wed 07 Oct 11:40 AM / 4:10 PM | 🕐 upcoming |
+| `6ac61fe945ccb79f0ef2d498` | batch1/vid_08 | Wed 07 Oct 11:45 AM / 4:15 PM | 🕐 upcoming |
+| `6ac61fec45ccb79f0ef2d4a2` | batch1/vid_09 | Wed 07 Oct 11:50 AM / 4:20 PM | 🕐 upcoming |
+
+> **Note:** Account 15's 5 posts (vid_05–09, 12:30–12:50 PM UK) are also ordered CANCEL via dashboard — same wrong-time burst.
 
 ---
 
@@ -296,8 +308,9 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 - **Accounts tracked:** 16 (14 TikTok + 2 IG entries, same IG account)
 - **Keys logged:** 17
-- **Posts created:** 77 (24 fired/unverified · 53 upcoming)
+- **Posts created:** 82 (25 fired/unverified · 57 upcoming)
 - **Videos used:** batch1 **COMPLETE** (vid_02–50; vid_05–13 reused on IG) · batch2 vid_01–13 · **next up: batch2/vid_14**
+- **Taisly plan:** STARTER hit post limit 07 Oct → **upgraded by operator** (retries succeeded)
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
 *Update this file on every key arrival and every posts:create. Verify "unverified" posts with `taisly posts:status --id <historyId>` when asked.*
