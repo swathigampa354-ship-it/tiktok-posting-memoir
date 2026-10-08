@@ -270,11 +270,11 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 | historyId | Vid | When (UK / IST) | Status |
 |---|---|---|---|
-| `6ac61ee745ccb79f0ef2d30f` | batch1/vid_05 | Wed 07 Oct 11:30 AM / 4:00 PM | ✅ **published** |
-| `6ac61fe345ccb79f0ef2d484` | batch1/vid_06 | Wed 07 Oct 11:35 AM / 4:05 PM | 🕐 upcoming |
-| `6ac61fe645ccb79f0ef2d48e` | batch1/vid_07 | Wed 07 Oct 11:40 AM / 4:10 PM | 🕐 upcoming |
-| `6ac61fe945ccb79f0ef2d498` | batch1/vid_08 | Wed 07 Oct 11:45 AM / 4:15 PM | 🕐 upcoming |
-| `6ac61fec45ccb79f0ef2d4a2` | batch1/vid_09 | Wed 07 Oct 11:50 AM / 4:20 PM | 🕐 upcoming |
+| `6ac61ee745ccb79f0ef2d30f` | batch1/vid_05 | Wed 07 Oct 11:30 AM / 4:00 PM | ✅✅ **PUBLISHED (API-verified)** |
+| `6ac61fe345ccb79f0ef2d484` | batch1/vid_06 | Wed 07 Oct 11:35 AM / 4:05 PM | ✅✅ **PUBLISHED (API-verified)** |
+| `6ac61fe645ccb79f0ef2d48e` | batch1/vid_07 | Wed 07 Oct 11:40 AM / 4:10 PM | ✅✅ **PUBLISHED (API-verified)** |
+| `6ac61fe945ccb79f0ef2d498` | batch1/vid_08 | Wed 07 Oct 11:45 AM / 4:15 PM | ✅✅ **PUBLISHED (API-verified)** |
+| `6ac61fec45ccb79f0ef2d4a2` | batch1/vid_09 | Wed 07 Oct 11:50 AM / 4:20 PM | ✅✅ **PUBLISHED (API-verified)** |
 
 > **Note:** Account 15's 5 posts (vid_05–09, 12:30–12:50 PM UK) are also ordered CANCEL via dashboard — same wrong-time burst.
 
@@ -308,7 +308,7 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 - **Accounts tracked:** 16 (14 TikTok + 2 IG entries, same IG account)
 - **Keys logged:** 17
-- **Posts created:** 82 (25 fired/unverified · 57 upcoming)
+- **Posts created:** 81 (30 fired — incl. 5 IG API-verified ✅✅ · 51 upcoming · 9 ordered CANCEL via dashboard)
 - **Videos used:** batch1 **COMPLETE** (vid_02–50; vid_05–13 reused on IG) · batch2 vid_01–13 · **next up: batch2/vid_14**
 - **Taisly plan:** STARTER hit post limit 07 Oct → **upgraded by operator** (retries succeeded)
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
