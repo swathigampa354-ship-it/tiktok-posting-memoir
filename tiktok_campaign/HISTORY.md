@@ -1,4 +1,21 @@
-# Taisly Campaign — businessdecoded67 / INSTAGRAM 4-PM-IST BURST (6ac61d8b45ccb79f0ef2d202) [LATEST]
+# Taisly Campaign — founderfiles71 / TikTok (6ac7cf0e572b2159e0a38d8d) [LATEST]
+
+Key: taisly_6917…cb89 | Operator custom: 1 immediate + 1 @ 9 AM UK (Fri = day post) + proper pairs from next day | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK BST) | Video | historyId | Status |
+|---|---|---|---|
+| Thu 2026-10-08 ~6:17 PM (immediate) | batch2/vid_14.mp4 | 6ac7d006572b2159e0a39060 | PUBLISHING |
+| Fri 2026-10-09 9:00 AM | batch2/vid_15.mp4 | 6ac7d00a572b2159e0a3906f | PENDING |
+| Fri 2026-10-09 8:30 PM | batch2/vid_16.mp4 | 6ac7d00d572b2159e0a3907a | PENDING |
+| Sat 2026-10-10 12:30 PM | batch2/vid_17.mp4 | 6ac7d010572b2159e0a39084 | PENDING |
+| Sat 2026-10-10 8:30 PM | batch2/vid_18.mp4 | 6ac7d013572b2159e0a3908e | PENDING |
+
+Created 2026-10-08 17:17 UTC.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businessdecoded67 / INSTAGRAM 4-PM-IST BURST (6ac61d8b45ccb79f0ef2d202)
 
 Key: taisly_3116…46f | Operator correction: 5 posts from **4:00 PM IST today**, 5-min gaps (IG runs on its own timing, no TikTok day/night rules) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 

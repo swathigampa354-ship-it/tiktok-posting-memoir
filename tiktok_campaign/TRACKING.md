@@ -280,6 +280,21 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 ---
 
+## Account 17 — `founderfiles71` (displayName: founderfiles)
+- **Platform ID:** `6ac7cf0e572b2159e0a38d8d` (brand new TikTok account)
+- **Key used:** `taisly_6917…cb89`
+- **Created:** Thu 08 Oct 2026 · **Operator custom format:** 1 immediate (now) + 1 @ 9:00 AM UK Fri (counts as Fri's day post) + proper pairs from next day
+
+| historyId | Vid | When (UK) | Slot | Status |
+|---|---|---|---|---|
+| `6ac7d006572b2159e0a39060` | batch2/vid_14 | Thu 08 Oct ~6:17 PM (NOW) | immediate | 📤 publishing |
+| `6ac7d00a572b2159e0a3906f` | batch2/vid_15 | Fri 09 Oct 9:00 AM | ☀️ day (custom time, counts as Fri's post) | 🕐 upcoming |
+| `6ac7d00d572b2159e0a3907a` | batch2/vid_16 | Fri 09 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
+| `6ac7d010572b2159e0a39084` | batch2/vid_17 | Sat 10 Oct 12:30 PM | ☀️ day | 🕐 upcoming |
+| `6ac7d013572b2159e0a3908e` | batch2/vid_18 | Sat 10 Oct 8:30 PM | 🌙 night | 🕐 upcoming |
+
+---
+
 ## Key → Account Map (for instant lookup)
 
 | Taisly key (masked) | TikTok username | Platform ID |
@@ -301,15 +316,16 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 | `taisly_e995…69b7` | wealthtechmedia | `6ac5812545ccb79f0ef25b59` |
 | `taisly_3743…cd5` | **IG** businessdecoded67 | `6ac61a5845ccb79f0ef2cfd1` |
 | `taisly_3116…46f` | **IG** businessdecoded67 (reconnected) | `6ac61d8b45ccb79f0ef2d202` |
+| `taisly_6917…cb89` | founderfiles71 (founderfiles) | `6ac7cf0e572b2159e0a38d8d` |
 
 ---
 
-## Totals (as of Wed 07 Oct 2026, UK)
+## Totals (as of Thu 08 Oct 2026, UK)
 
-- **Accounts tracked:** 16 (14 TikTok + 2 IG entries, same IG account)
-- **Keys logged:** 17
-- **Posts created:** 81 (30 fired — incl. 5 IG API-verified ✅✅ · 51 upcoming · 9 ordered CANCEL via dashboard)
-- **Videos used:** batch1 **COMPLETE** (vid_02–50; vid_05–13 reused on IG) · batch2 vid_01–13 · **next up: batch2/vid_14**
+- **Accounts tracked:** 17 (15 TikTok + 2 IG entries, same IG account)
+- **Keys logged:** 18
+- **Posts created:** 86 (31 fired — incl. 5 IG API-verified ✅✅ · 55 upcoming · 9 ordered CANCEL via dashboard)
+- **Videos used:** batch1 **COMPLETE** (vid_02–50; vid_05–13 reused on IG) · batch2 vid_01–18 · **next up: batch2/vid_19**
 - **Taisly plan:** STARTER hit post limit 07 Oct → **upgraded by operator** (retries succeeded)
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
