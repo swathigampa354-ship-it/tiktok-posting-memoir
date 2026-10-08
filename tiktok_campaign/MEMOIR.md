@@ -347,6 +347,20 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ---
 
+### Campaign 20 — TikTok `techdecoded829` (platform id `6ac7e1bc572b2159e0a3ba98`)  ← LATEST
+- **Key:** `taisly_6187…12138` · **Date:** Thu 08 Oct 2026
+- **"Do same"** as venturedecoded929: 1 immediate + 1/day at 12:30 PM, Fri 09 → Mon 12 Oct.
+
+| When (UK) | Video | historyId |
+|---|---|---|
+| Thu 08 Oct ~7:34 PM (now) | batch2/vid_24 | `6ac7e23d572b2159e0a3bae2` |
+| Fri 09 Oct 12:30 PM | batch2/vid_25 | `6ac7e240572b2159e0a3baff` |
+| Sat 10 Oct 12:30 PM | batch2/vid_26 | `6ac7e243572b2159e0a3bb0c` |
+| Sun 11 Oct 12:30 PM | batch2/vid_27 | `6ac7e246572b2159e0a3bb16` |
+| Mon 12 Oct 12:30 PM | batch2/vid_28 | `6ac7e249572b2159e0a3bb22` |
+
+---
+
 ## 5. Operational Notes (gotchas learned)
 
 1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.
@@ -363,7 +377,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 - [ ] Verify Campaign 1's 5 posts (neo3hrbiytf) — did they fire or were they killed by the disconnect?
 - [ ] Verify Campaign 2's 1 AM posts (techstacker0) fired on 27–30 Sep.
 - [x] Batch vid_11–13 deployed (Campaign 4, businesssignals_20)
-- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: batch2/vid_24
+- [x] Batch vid_14–17 deployed (Campaign 5, nextgencapital_292) — next up: batch2/vid_29
 - [ ] After ~2 weeks of posts, pull per-account follower-activity analytics and let actual data override the generic peak windows.
 
 ## 7. Workspace State

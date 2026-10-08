@@ -310,6 +310,21 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 ---
 
+## Account 19 — `techdecoded829` (displayName: techdecoded)
+- **Platform ID:** `6ac7e1bc572b2159e0a3ba98` (brand new TikTok account)
+- **Key used:** `taisly_6187…12138`
+- **Created:** Thu 08 Oct 2026 · **1 vid a day (new id rule)** — 1 now + 1/day at 12:30 PM, Fri 09 → Mon 12 Oct
+
+| historyId | Vid | When (UK) | Status |
+|---|---|---|---|
+| `6ac7e23d572b2159e0a3bae2` | batch2/vid_24 | Thu 08 Oct ~7:34 PM (NOW) | 📤 publishing |
+| `6ac7e240572b2159e0a3baff` | batch2/vid_25 | Fri 09 Oct 12:30 PM | 🕐 upcoming |
+| `6ac7e243572b2159e0a3bb0c` | batch2/vid_26 | Sat 10 Oct 12:30 PM | 🕐 upcoming |
+| `6ac7e246572b2159e0a3bb16` | batch2/vid_27 | Sun 11 Oct 12:30 PM | 🕐 upcoming |
+| `6ac7e249572b2159e0a3bb22` | batch2/vid_28 | Mon 12 Oct 12:30 PM | 🕐 upcoming |
+
+---
+
 ## Key → Account Map (for instant lookup)
 
 | Taisly key (masked) | TikTok username | Platform ID |
@@ -333,16 +348,17 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 | `taisly_3116…46f` | **IG** businessdecoded67 (reconnected) | `6ac61d8b45ccb79f0ef2d202` |
 | `taisly_6917…cb89` | founderfiles71 (founderfiles) | `6ac7cf0e572b2159e0a38d8d` |
 | `taisly_695d…e765` | venturedecoded929 (venturedecoded) | `6ac7dfa0572b2159e0a3b941` |
+| `taisly_6187…12138` | techdecoded829 (techdecoded) | `6ac7e1bc572b2159e0a3ba98` |
 
 ---
 
 ## Totals (as of Thu 08 Oct 2026, UK)
 
-- **Accounts tracked:** 18 (16 TikTok + 2 IG entries, same IG account)
-- **Keys logged:** 19
-- **Posts created:** 91 (32 fired — incl. 5 IG API-verified ✅✅ · 59 upcoming · 9 ordered CANCEL via dashboard)
-- **Videos used:** batch1 **COMPLETE** (vid_02–50; vid_05–13 reused on IG) · batch2 vid_01–23 · **next up: batch2/vid_24**
-- **Per-account cadence rules:** new TikTok ids = only 1 vid a day (venturedecoded929 pattern); IG = operator-specified timing only
+- **Accounts tracked:** 19 (17 TikTok + 2 IG entries, same IG account)
+- **Keys logged:** 20
+- **Posts created:** 96 (33 fired — incl. 5 IG API-verified ✅✅ · 63 upcoming · 9 ordered CANCEL via dashboard)
+- **Videos used:** batch1 **COMPLETE** (vid_02–50; vid_05–13 reused on IG) · batch2 vid_01–28 · **next up: batch2/vid_29**
+- **Per-account cadence rules:** new TikTok ids = only 1 vid a day (venturedecoded929/techdecoded829 pattern); IG = operator-specified timing only
 - **Taisly plan:** STARTER hit post limit 07 Oct → **upgraded by operator** (retries succeeded)
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
