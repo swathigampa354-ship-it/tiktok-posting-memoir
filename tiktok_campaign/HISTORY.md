@@ -1,4 +1,21 @@
-# Taisly Campaign — aifounders82 / TikTok (6ac7e40a572b2159e0a3bc56) [LATEST]
+# Taisly Campaign — businesssignals_20 RECONNECTED (founderbrief) / TikTok (6ac8c0e700edbf8576b0e53c) [LATEST]
+
+Key: taisly_f127…da1dd | Operator: today's vid now + day/night both from tomorrow (agent chose slots); next key continues cycle | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK BST) | Video | historyId | Status |
+|---|---|---|---|
+| Fri 2026-10-09 ~11:28 AM (immediate) | batch2/vid_34.mp4 | 6ac8c1e600edbf8576b0e5d3 | PUBLISHING |
+| Sat 2026-10-10 12:30 PM | batch2/vid_35.mp4 | 6ac8c1e900edbf8576b0e5e7 | PENDING |
+| Sat 2026-10-10 8:30 PM | batch2/vid_36.mp4 | 6ac8c1ec00edbf8576b0e5f1 | PENDING |
+| Sun 2026-10-11 12:30 PM | batch2/vid_37.mp4 | 6ac8c1ef00edbf8576b0e5fc | PENDING |
+| Sun 2026-10-11 8:30 PM | batch2/vid_38.mp4 | 6ac8c1f200edbf8576b0e610 | PENDING |
+
+Created 2026-10-09 10:28 UTC.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — aifounders82 / TikTok (6ac7e40a572b2159e0a3bc56)
 
 Key: taisly_6e4b…34a5 | Operator: "do the same" — 1 vid now + 1 vid a day from tomorrow (new id rule) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
