@@ -1,4 +1,21 @@
-# Taisly Campaign — businesssignals_20 RECONNECTED (founderbrief) / TikTok (6ac8c0e700edbf8576b0e53c) [LATEST]
+# Taisly Campaign — businesssignals_20 RECONNECTED AGAIN (founderbrief) / TikTok (6ac8c36f00edbf8576b0e734) [LATEST]
+
+Key: taisly_ada6…a73a | Bare key — cycle continuation from Campaign 22 (Mon 12 + Tue 13 day/night pairs + Wed 14 day) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK BST) | Video | historyId | Status |
+|---|---|---|---|
+| Mon 2026-10-12 12:30 PM | batch2/vid_39.mp4 | 6ac8c3a700edbf8576b0e762 | PENDING |
+| Mon 2026-10-12 8:30 PM | batch2/vid_40.mp4 | 6ac8c3aa00edbf8576b0e76c | PENDING |
+| Tue 2026-10-13 12:30 PM | batch2/vid_41.mp4 | 6ac8c3ad00edbf8576b0e776 | PENDING |
+| Tue 2026-10-13 8:30 PM | batch2/vid_42.mp4 | 6ac8c3b000edbf8576b0e781 | PENDING |
+| Wed 2026-10-14 12:30 PM | batch2/vid_43.mp4 | 6ac8c3b300edbf8576b0e78b | PENDING |
+
+Created 2026-10-09 10:37 UTC.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businesssignals_20 RECONNECTED (founderbrief) / TikTok (6ac8c0e700edbf8576b0e53c)
 
 Key: taisly_f127…da1dd | Operator: today's vid now + day/night both from tomorrow (agent chose slots); next key continues cycle | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
