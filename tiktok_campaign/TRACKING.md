@@ -410,6 +410,24 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 ---
 
+## Account 25 — `businessdecoded67` (**Instagram** — reconnected again, "dummy insta")
+- **Platform ID:** `6acd8b40c22887490c2074d5` (new connection → new ledger entry)
+- **Key used:** `taisly_e68d…3ef3`
+- **Created:** Tue 13 Oct 2026 (~7:08 AM IST) · **5 immediate pushes** (bare "Instagram" key = established IG pattern: next batch, all 5, now)
+- New IG caption in use
+
+| historyId | Vid | When (IST) | Status |
+|---|---|---|---|
+| `6acd8b97c22887490c207564` | batch1/vid_24 | Tue 13 Oct ~7:08 AM (now) | 📤 publishing |
+| `6acd8b9ac22887490c207573` | batch1/vid_25 | Tue 13 Oct ~7:08 AM (now) | 📤 publishing |
+| `6acd8b9dc22887490c207582` | batch1/vid_26 | Tue 13 Oct ~7:08 AM (now) | 📤 publishing |
+| `6acd8ba0c22887490c207591` | batch1/vid_27 | Tue 13 Oct ~7:08 AM (now) | 📤 publishing |
+| `6acd8ba3c22887490c2075a0` | batch1/vid_28 | Tue 13 Oct ~7:08 AM (now) | 📤 publishing |
+
+**IG queue:** batch1 used 05–28 → **next IG vid: batch1/vid_29**
+
+---
+
 ## Key → Account Map (for instant lookup)
 
 | Taisly key (masked) | TikTok username | Platform ID |
@@ -439,6 +457,7 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 | `taisly_ada6…a73a` | businesssignals_20 (founderbrief, reconnected again) | `6ac8c36f00edbf8576b0e734` |
 | `taisly_7ad3…1f5f` | **IG** businessdecoded67 (dummy insta, reconnected) | `6acd80a4c22887490c206760` |
 | `taisly_6f06…072e` | **IG** businessdecoded67 (dummy insta, reconnected) | `6acd8477c22887490c206c7e` |
+| `taisly_e68d…3ef3` | **IG** businessdecoded67 (dummy insta, reconnected) | `6acd8b40c22887490c2074d5` |
 
 ---
 
