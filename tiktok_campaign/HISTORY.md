@@ -1,4 +1,22 @@
-# Taisly Campaign — businesssignals_20 RECONNECTED AGAIN (founderbrief) / TikTok (6ac8c36f00edbf8576b0e734) [LATEST]
+# Taisly Campaign — businessdecoded67 / INSTAGRAM "DUMMY INSTA" (6acd80a4c22887490c206760) [LATEST]
+
+Key: taisly_7ad3…1f5f | Operator: "Push vids.. Just now all of it" — 5 immediate | **NEW RULE: Instagram = separate operation (own timing, own batch-1 vid queue — no TikTok mixing)** | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
+
+| When (UK BST) | Video | historyId | Status |
+|---|---|---|---|
+| Tue 2026-10-13 ~1:59 AM (immediate) | batch1/vid_14.mp4 | 6acd826bc22887490c2069c9 | PUBLISHING |
+| Tue 2026-10-13 ~1:59 AM (immediate) | batch1/vid_15.mp4 | 6acd826ec22887490c2069d8 | PUBLISHING |
+| Tue 2026-10-13 ~1:59 AM (immediate) | batch1/vid_16.mp4 | 6acd8271c22887490c2069e7 | PUBLISHING |
+| Tue 2026-10-13 ~1:59 AM (immediate) | batch1/vid_17.mp4 | 6acd8274c22887490c2069f7 | PUBLISHING |
+| Tue 2026-10-13 ~1:59 AM (immediate) | batch1/vid_18.mp4 | 6acd8277c22887490c206a06 | PUBLISHING |
+
+Created 2026-10-13 00:59 UTC.
+IG queue now: next vid = batch1/vid_19.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businesssignals_20 RECONNECTED AGAIN (founderbrief) / TikTok (6ac8c36f00edbf8576b0e734)
 
 Key: taisly_ada6…a73a | Bare key — cycle continuation from Campaign 22 (Mon 12 + Tue 13 day/night pairs + Wed 14 day) | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
