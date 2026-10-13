@@ -261,10 +261,10 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 | historyId | Vid | When (UK) | Status |
 |---|---|---|---|
-| `6ac61e5d45ccb79f0ef2d269` | batch1/vid_10 | Wed 07 Oct 12:30 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
-| `6ac61e6045ccb79f0ef2d276` | batch1/vid_11 | Wed 07 Oct 12:35 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
-| `6ac61e6345ccb79f0ef2d280` | batch1/vid_12 | Wed 07 Oct 12:40 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
-| `6ac61e6745ccb79f0ef2d29a` | batch1/vid_13 | Wed 07 Oct 12:45 PM | ⚠️ **operator ordered CANCEL — dashboard** (wrong time) |
+| `6ac61e5d45ccb79f0ef2d269` | batch1/vid_10 | Wed 07 Oct 12:30 PM | ⚠️ wrong-time — **operator manually adjusted 13 Oct — closed** |
+| `6ac61e6045ccb79f0ef2d276` | batch1/vid_11 | Wed 07 Oct 12:35 PM | ⚠️ wrong-time — **operator manually adjusted 13 Oct — closed** |
+| `6ac61e6345ccb79f0ef2d280` | batch1/vid_12 | Wed 07 Oct 12:40 PM | ⚠️ wrong-time — **operator manually adjusted 13 Oct — closed** |
+| `6ac61e6745ccb79f0ef2d29a` | batch1/vid_13 | Wed 07 Oct 12:45 PM | ⚠️ wrong-time — **operator manually adjusted 13 Oct — closed** |
 
 **Corrected 4-PM-IST burst (5 posts, 5-min gaps) — the intended batch:**
 
@@ -276,7 +276,7 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 | `6ac61fe945ccb79f0ef2d498` | batch1/vid_08 | Wed 07 Oct 11:45 AM / 4:15 PM | ✅✅ **PUBLISHED (API-verified)** |
 | `6ac61fec45ccb79f0ef2d4a2` | batch1/vid_09 | Wed 07 Oct 11:50 AM / 4:20 PM | ✅✅ **PUBLISHED (API-verified)** |
 
-> **Note:** Account 15's 5 posts (vid_05–09, 12:30–12:50 PM UK) are also ordered CANCEL via dashboard — same wrong-time burst.
+> **Note:** the 5 wrong-time posts (vid_05–09, 12:30–12:50 PM UK) — **operator manually adjusted in dashboard 13 Oct — closed, non-issue.**
 
 ---
 
@@ -391,6 +391,25 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 
 ---
 
+## Account 24 — `businessdecoded67` (**Instagram** — reconnected again, "dummy insta")
+- **Platform ID:** `6acd8477c22887490c206c7e` (new connection → new ledger entry)
+- **Key used:** `taisly_6f06…072e`
+- **Created:** Tue 13 Oct 2026 (~6:46 AM IST) · **5 immediate pushes** — first batch on the **NEW IG caption**
+- **📝 NEW IG CAPTION (13 Oct, Instagram ONLY — TikTok caption unchanged):**
+  `@cartesiaai @atomikgrowth / Exploring the ideas shaping the future of AI. / Real-time voice, AI models, and the technology behind the next generation of products / Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech`
+
+| historyId | Vid | When (IST) | Status |
+|---|---|---|---|
+| `6acd8670c22887490c206f06` | batch1/vid_19 | Tue 13 Oct ~6:46 AM (now) | 📤 publishing |
+| `6acd8673c22887490c206f15` | batch1/vid_20 | Tue 13 Oct ~6:46 AM (now) | 📤 publishing |
+| `6acd8676c22887490c206f24` | batch1/vid_21 | Tue 13 Oct ~6:46 AM (now) | 📤 publishing |
+| `6acd8679c22887490c206f33` | batch1/vid_22 | Tue 13 Oct ~6:46 AM (now) | 📤 publishing |
+| `6acd867cc22887490c206f45` | batch1/vid_23 | Tue 13 Oct ~6:46 AM (now) | 📤 publishing |
+
+**IG queue:** batch1 used 05–23 → **next IG vid: batch1/vid_24**
+
+---
+
 ## Key → Account Map (for instant lookup)
 
 | Taisly key (masked) | TikTok username | Platform ID |
@@ -419,6 +438,7 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 | `taisly_f127…da1dd` | businesssignals_20 (founderbrief, reconnected) | `6ac8c0e700edbf8576b0e53c` |
 | `taisly_ada6…a73a` | businesssignals_20 (founderbrief, reconnected again) | `6ac8c36f00edbf8576b0e734` |
 | `taisly_7ad3…1f5f` | **IG** businessdecoded67 (dummy insta, reconnected) | `6acd80a4c22887490c206760` |
+| `taisly_6f06…072e` | **IG** businessdecoded67 (dummy insta, reconnected) | `6acd8477c22887490c206c7e` |
 
 ---
 

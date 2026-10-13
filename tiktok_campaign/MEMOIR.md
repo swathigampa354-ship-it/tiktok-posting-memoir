@@ -422,6 +422,25 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 
 ---
 
+### Campaign 25 — Instagram `businessdecoded67` (platform id `6acd8477c22887490c206c7e`)  ← LATEST
+- **Key:** `taisly_6f06…072e` · **Date:** Tue 13 Oct 2026 ~6:46 AM IST
+- **5 immediate pushes** — batch1/vid_19–23. **First batch on the new IG caption.**
+- **📝 NEW IG CAPTION (13 Oct, Instagram ONLY; TikTok caption unchanged):**
+  `@cartesiaai @atomikgrowth` / `Exploring the ideas shaping the future of AI.` / `Real-time voice, AI models, and the technology behind the next generation of products` / `Money is power` / `Produced by @atomikgrowth` / `#AI #ArtificialIntelligence #Tech`
+- **Operator: 9 wrong-time IG posts (07 Oct) manually adjusted in dashboard — closed, non-issue.**
+
+| When (IST) | Video | historyId |
+|---|---|---|
+| Tue 13 Oct ~6:46 AM (now) | batch1/vid_19 | `6acd8670c22887490c206f06` |
+| Tue 13 Oct ~6:46 AM (now) | batch1/vid_20 | `6acd8673c22887490c206f15` |
+| Tue 13 Oct ~6:46 AM (now) | batch1/vid_21 | `6acd8676c22887490c206f24` |
+| Tue 13 Oct ~6:46 AM (now) | batch1/vid_22 | `6acd8679c22887490c206f33` |
+| Tue 13 Oct ~6:46 AM (now) | batch1/vid_23 | `6acd867cc22887490c206f45` |
+
+**IG queue: next vid = batch1/vid_24.** TikTok queue unaffected: next = batch2/vid_44.
+
+---
+
 ## 5. Operational Notes (gotchas learned)
 
 1. **Sandbox resets** wipe the installed CLI between sessions → always `npm install -g @taisly/agent` (npm prefix = `~/.npm-global`, add `~/.npm-global/bin` to PATH) before running `taisly`.

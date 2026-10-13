@@ -1,4 +1,23 @@
-# Taisly Campaign — businessdecoded67 / INSTAGRAM "DUMMY INSTA" (6acd80a4c22887490c206760) [LATEST]
+# Taisly Campaign — businessdecoded67 / INSTAGRAM DUMMY (6acd8477c22887490c206c7e) [LATEST]
+
+Key: taisly_6f06…072e | Operator: next IG batch, push all 5 now (IST) | **NEW IG caption in effect (Instagram only)** | Caption: "@cartesiaai @atomikgrowth / Exploring the ideas shaping the future of AI. / Real-time voice, AI models, and the technology behind the next generation of products / Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech"
+
+| When (IST) | Video | historyId | Status |
+|---|---|---|---|
+| Tue 2026-10-13 ~6:46 AM (immediate) | batch1/vid_19.mp4 | 6acd8670c22887490c206f06 | PUBLISHING |
+| Tue 2026-10-13 ~6:46 AM (immediate) | batch1/vid_20.mp4 | 6acd8673c22887490c206f15 | PUBLISHING |
+| Tue 2026-10-13 ~6:46 AM (immediate) | batch1/vid_21.mp4 | 6acd8676c22887490c206f24 | PUBLISHING |
+| Tue 2026-10-13 ~6:46 AM (immediate) | batch1/vid_22.mp4 | 6acd8679c22887490c206f33 | PUBLISHING |
+| Tue 2026-10-13 ~6:46 AM (immediate) | batch1/vid_23.mp4 | 6acd867cc22887490c206f45 | PUBLISHING |
+
+Created 2026-10-13 01:16 UTC.
+IG queue now: next vid = batch1/vid_24.
+Operator: 9 wrong-time IG posts (07 Oct) manually adjusted in dashboard — closed, non-issue.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businessdecoded67 / INSTAGRAM "DUMMY INSTA" (6acd80a4c22887490c206760)
 
 Key: taisly_7ad3…1f5f | Operator: "Push vids.. Just now all of it" — 5 immediate | **NEW RULE: Instagram = separate operation (own timing, own batch-1 vid queue — no TikTok mixing)** | Caption: "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
