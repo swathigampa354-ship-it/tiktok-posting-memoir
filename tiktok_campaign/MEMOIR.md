@@ -418,6 +418,7 @@ Video specs: ~2.27 MB MP4, ISO Media, TikTok schema-compliant (≤500 MB, 3–90
 | Tue 13 Oct ~1:59 AM (now) | batch1/vid_18 | `6acd8277c22887490c206a06` |
 
 **IG queue: next vid = batch1/vid_19.** TikTok queue unaffected: next = batch2/vid_44.
+- **🕐 UPDATE (13 Oct, operator): ALL Instagram timing = INDIAN TIME (IST) ONLY.** Operator times for IG are IST; schedule via UTC conversion; report IG times in IST. (IST = UTC+5:30; UK BST = UTC+1, so 4 PM IST = 11:30 AM UK.)
 
 ---
 

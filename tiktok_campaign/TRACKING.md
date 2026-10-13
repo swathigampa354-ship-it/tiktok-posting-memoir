@@ -377,6 +377,7 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 - **Key used:** `taisly_7ad3…1f5f`
 - **Created:** Tue 13 Oct 2026 (~1:59 AM UK) · **5 immediate posts** ("just now all of it")
 - **⚠️ STANDING RULE (13 Oct): Instagram is a SEPARATE operation** — own timing (operator-only, never TikTok day/night slots) and own video queue (batch 1 sequence, independent of the TikTok batch 2 queue)
+- **🕐 TIME ZONE RULE (13 Oct): ALL Instagram timing = INDIAN TIME (IST) ONLY** — operator times are IST; convert internally to UTC for scheduling; report/track IG times in IST. Never UK time for IG.
 
 | historyId | Vid | When (UK) | Status |
 |---|---|---|---|
@@ -427,7 +428,7 @@ Operator rule for this key: the 12:16 AM immediate post counts as Wed 07's night
 - **Keys logged:** 23
 - **Posts created:** 111 (35 fired — incl. 5 IG API-verified ✅✅ · 76 upcoming · 9 ordered CANCEL via dashboard)
 - **Videos used:** batch1 **COMPLETE** (vid_02–50; vid_05–13 reused on IG) · batch2 vid_01–43 · **next up: batch2/vid_44** (only 7 left in batch 2)
-- **Per-account cadence rules:** new TikTok ids = 1 vid a day (venture/techdecoded/aifounders) OR 1 immediate + day/night pairs from next day (businesssignals_20 re, founderfiles pattern); IG = operator-specified timing only
+- **Per-account cadence rules:** new TikTok ids = 1 vid a day (venture/techdecoded/aifounders) OR 1 immediate + day/night pairs from next day (businesssignals_20 re, founderfiles pattern); **IG = operator-specified timing ONLY, in INDIAN TIME (IST) — never UK time, never TikTok slots**
 - **Taisly plan:** STARTER hit post limit 07 Oct → **upgraded by operator** (retries succeeded)
 - **Standing caption:** "Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech #Startup #Business #Entrepreneur"
 
