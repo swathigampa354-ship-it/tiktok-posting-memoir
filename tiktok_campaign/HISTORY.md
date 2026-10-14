@@ -1,4 +1,22 @@
-# Taisly Campaign — businessdecoded67 / INSTAGRAM DUMMY (6acd8b40c22887490c2074d5) [LATEST]
+# Taisly Campaign — businessdecoded67 / INSTAGRAM DUMMY (6acf5b40c22887490c2292dc) [LATEST]
+
+Key: taisly_78f4…d1d47e | Operator: "Instagram. Push emm all 5 vids." — established IG pattern | New IG caption | Caption: "@cartesiaai @atomikgrowth / Exploring the ideas shaping the future of AI. / Real-time voice, AI models, and the technology behind the next generation of products / Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech"
+
+| When (IST) | Video | historyId | Status |
+|---|---|---|---|
+| Wed 2026-10-14 ~4:39 PM (immediate) | batch1/vid_29.mp4 | 6acf5bd9c22887490c2293ed | PUBLISHING |
+| Wed 2026-10-14 ~4:39 PM (immediate) | batch1/vid_30.mp4 | 6acf5bdcc22887490c2293fc | PUBLISHING |
+| Wed 2026-10-14 ~4:39 PM (immediate) | batch1/vid_31.mp4 | 6acf5bdfc22887490c22940b | PUBLISHING |
+| Wed 2026-10-14 ~4:39 PM (immediate) | batch1/vid_32.mp4 | 6acf5be2c22887490c22941b | PUBLISHING |
+| Wed 2026-10-14 ~4:39 PM (immediate) | batch1/vid_33.mp4 | 6acf5be5c22887490c229436 | PUBLISHING |
+
+Created 2026-10-14 10:39 UTC.
+IG queue now: next vid = batch1/vid_34.
+Check: taisly posts:status --id <historyId>
+
+---
+
+# Taisly Campaign — businessdecoded67 / INSTAGRAM DUMMY (6acd8b40c22887490c2074d5)
 
 Key: taisly_e68d…3ef3 | Bare "Instagram" key = established IG pattern: next batch, all 5, push now (IST) | New IG caption | Caption: "@cartesiaai @atomikgrowth / Exploring the ideas shaping the future of AI. / Real-time voice, AI models, and the technology behind the next generation of products / Money is power / Produced by @atomikgrowth / #AI #ArtificialIntelligence #Tech"
 
